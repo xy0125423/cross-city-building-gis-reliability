@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this research software. This is not a published journal article."
+title: "Cross-city building extraction and GIS spatial reliability"
+type: software
+authors:
+  - family-names: Xue
+    given-names: Mengle
+version: 0.1.0
+date-released: 2026-11-23
+abstract: "Paris–Khartoum building extraction, dual-error accounting and grid-origin sensitivity. Author: 薛梦乐; romanization subject to author confirmation before publication."

@@ -1,0 +1,8 @@
+﻿question,status,evidence,source,boundary
+双向跨城市退化是否在新增种子下仍存在,稳定支持,逐种子同目标within-minus-cross IoU及两方向范围,multi_seed_paired_differences.csv;core_transfer_ranges.csv,仅两个城市、当前划分、模型和3种子；严重程度以实际差值描述，不是城市总体结论
+跨域建筑面积在全部种子与路线下是否稳定低估,不支持,跨域路线全部种子/尺度/已测试起点的GT相对面积偏差,all_spatial_summaries.csv;core_area_and_cancellation_ranges.csv,按方向分别判断；C的低估不能外推给B。起点/尺度总偏差不变源于守恒，不能算独立重复证据
+FP/FN抵消是否跨模型和网格存在,稳定支持,格内抵消率1-sum(abs(FP-FN))/sum(FP+FN)的完整范围,all_spatial_summaries.csv,抵消强弱可变；有抵消不必超过主情景阈值；全域抵消与格内抵消不同
+净面积误差能否单独满足同时重视面积与位置的任务,不支持,主情景净误差通过却空间错误超限的实际网格及FP/FN恒等式,method_controls_main.csv,只约束面积总量的任务可合理只用净误差；不声称每种GIS任务都需要联合规则
+联合诊断在哪些条件下有额外价值或几乎无增量,部分支持,按路线/尺度/起点/种子及非空GT层保留增量和零增量结果,method_controls_main.csv;all_27_method_controls.csv,严重漏检时净误差已揭示失败；Q只限制解释；更少通过数不是精度提高
+能否获得独立泛化或无标签可靠性预测,不支持,本设计重复使用已查看Test，E_net/E_spatial依赖GT,protocol.md,新种子分析不是独立外部验证，未来无标签预测效果尚无法判断
+能否解释域差异的唯一物理成因,尚无法判断,未对辐射、形态、标签、尺度和校准作可辨识因果对照,protocol.md,不能把观察到的迁移失败唯一归因于某种机制

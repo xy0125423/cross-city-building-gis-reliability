@@ -1,0 +1,5 @@
+﻿city,scale_m,grid_id,within_route,cross_route,selection,E_net,E_spatial,Q
+AOI_3_Paris,100,4453_54337,A,C,main_hidden_sufficient_support,0.0025542708146483848,0.09141867414025662,1.0
+AOI_3_Paris,500,892_10867,A,C,max_excess_nonhidden_fallback,0.012603965030552803,0.042376336132584805,0.05434842301998343
+AOI_5_Khartoum,100,4521_17342,D,B,main_hidden_sufficient_support,0.008877650645080613,0.21988536384821195,0.6862679501676805
+AOI_5_Khartoum,500,904_3477,D,B,main_hidden_sufficient_support,0.0014846220941159343,0.12008844767751788,0.5216868762037805

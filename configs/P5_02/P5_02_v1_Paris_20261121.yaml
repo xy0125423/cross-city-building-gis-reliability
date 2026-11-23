@@ -1,0 +1,84 @@
+stage: P5-02
+training_authorized: false
+test_enabled: false
+source_city: AOI_3_Paris
+routes:
+- A
+- B
+manifest: configs/P3_01_FIX03_effective_manifest.csv
+manifest_sha256: 3e9b55bdd11c14d6fdab2c7e3d0d8be599ed4b1861bd91e2ba5184a7d54987bb
+model: src/P5_02/deeplabv3plus.py:DeepLabV3Plus
+model_license: BSD-3-Clause-style clean PyTorch implementation
+input_channels: 3
+init_features: 8
+output_channels: 1
+input_size: 128
+initialization: fresh_random
+pretrained_checkpoint: null
+seed: 20261121
+device: cpu
+cpu_threads: 4
+num_workers: 0
+deterministic_algorithms: true
+augmentations: []
+optimizer: Adam
+learning_rate: 0.001
+adam_betas:
+- 0.9
+- 0.999
+adam_eps: 1.0e-08
+weight_decay: 0
+batch_size: 4
+drop_last: false
+epochs: 12
+scheduler: null
+early_stopping: false
+loss: masked_BCE_plus_soft_Dice
+bce_clamp:
+- 1.0e-06
+- 0.999999
+dice_smoothing: 1.0
+loss_weights:
+- 1.0
+- 1.0
+image_resize: bilinear_align_corners_false
+label_resize: nearest
+support_resize: adaptive_avg_pool_ge_0.999999
+valid_support_class: 1
+normalization_city: AOI_3_Paris
+normalization_split: train
+normalization_percentiles:
+- 1
+- 99
+normalization_stride: 16
+normalization_scene_order: image_id_lexicographic
+normalization_denominator_min: 1.0
+normalization_clip:
+- 0
+- 1
+normalization_statistics: results/P5_02/normalization/AOI_3_Paris.json
+threshold: 0.5
+threshold_tuning: false
+probability_upsample: bilinear_align_corners_false_to_native_grid
+checkpoint_rule: group_balanced_strata_iou_v1
+checkpoint_score_round_decimals: 12
+checkpoint_tie: earliest_epoch
+checkpoint_path: experiments/P5_02/training/20261121/AOI_3_Paris/best.pt
+validation_protocol: reports/P3_01_validation_protocol.md
+validation_implementation: src/p3_01_validation.py
+validation_city: AOI_3_Paris
+checkpoint_shared_across_routes: true
+manifest_version: P3-01-FIX03
+original_manifest: configs/P3_00_split_manifest.csv
+original_manifest_sha256: 60073a0a279f732304d83bbb65f75926aaf707734ec32449baab2b05a1a13a38
+effective_train_count: 428
+architecture_family: DeepLabV3Plus
+encoder: MobileNetV2_0.5
+width_mult: 0.5
+output_stride: 16
+aspp_rates:
+- 6
+- 12
+- 18
+low_level_proj_channels: 32
+decoder_channels: 128

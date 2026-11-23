@@ -1,0 +1,2764 @@
+[
+  {
+    "source": "src/__init__.py",
+    "destination": "src/__init__.py",
+    "source_sha256": "8461ce423580a32a0654e6979859ff1e2ba982e53453bd8c604fb30b3ce193af",
+    "release_sha256": "8461ce423580a32a0654e6979859ff1e2ba982e53453bd8c604fb30b3ce193af"
+  },
+  {
+    "source": "src/p1_spatial.py",
+    "destination": "src/p1_spatial.py",
+    "source_sha256": "bdab9a20cfafaa33a92f8beb8a09c265674909f6c72b9592e37a44879944cb4e",
+    "release_sha256": "bdab9a20cfafaa33a92f8beb8a09c265674909f6c72b9592e37a44879944cb4e"
+  },
+  {
+    "source": "src/p3_01_validation.py",
+    "destination": "src/p3_01_validation.py",
+    "source_sha256": "2263826c100b124fe3127d408535afe37b685fcfbc0db1d5ba599e117c1d5c13",
+    "release_sha256": "2263826c100b124fe3127d408535afe37b685fcfbc0db1d5ba599e117c1d5c13"
+  },
+  {
+    "source": "src/P5_02/deeplabv3plus.py",
+    "destination": "src/P5_02/deeplabv3plus.py",
+    "source_sha256": "50639bae9e342414ebe12de59ce78077a149871fedecdff572f7c6487edaed5f",
+    "release_sha256": "50639bae9e342414ebe12de59ce78077a149871fedecdff572f7c6487edaed5f"
+  },
+  {
+    "source": "src/vendor/p2_unet/unet.py",
+    "destination": "src/vendor/p2_unet/unet.py",
+    "source_sha256": "47b2fbc1792897ba216fff24b4b034f0a1bdb0776e6848a5ada65623928239e7",
+    "release_sha256": "47b2fbc1792897ba216fff24b4b034f0a1bdb0776e6848a5ada65623928239e7"
+  },
+  {
+    "source": "src/vendor/p2_unet/LICENSE",
+    "destination": "src/vendor/p2_unet/LICENSE",
+    "source_sha256": "abab224573115eb895db88fdf7f7196e777a9f32f05f9ad18c99af845ba65d48",
+    "release_sha256": "abab224573115eb895db88fdf7f7196e777a9f32f05f9ad18c99af845ba65d48"
+  },
+  {
+    "source": "src/vendor/p2_unet/provenance.json",
+    "destination": "src/vendor/p2_unet/provenance.json",
+    "source_sha256": "9ea18da0b3a551a284d105718e0f01fb328feef8ccef1b271fd75bc0fdf7b9c1",
+    "release_sha256": "9ea18da0b3a551a284d105718e0f01fb328feef8ccef1b271fd75bc0fdf7b9c1"
+  },
+  {
+    "source": "configs/P3_00_split_manifest.csv",
+    "destination": "configs/P3_00_split_manifest.csv",
+    "adaptation": "Paths relative to DATA_ROOT (the original data/ directory); splits and hashes retained.",
+    "source_sha256": "60073a0a279f732304d83bbb65f75926aaf707734ec32449baab2b05a1a13a38",
+    "release_sha256": "40909c0689aafff7a44b2e8b90ccad4175a9a57589ac59191cb3756eaa90b341"
+  },
+  {
+    "source": "configs/P3_01_FIX03_effective_manifest.csv",
+    "destination": "configs/P3_01_FIX03_effective_manifest.csv",
+    "adaptation": "Paths relative to DATA_ROOT (the original data/ directory); splits and hashes retained.",
+    "source_sha256": "3e9b55bdd11c14d6fdab2c7e3d0d8be599ed4b1861bd91e2ba5184a7d54987bb",
+    "release_sha256": "b6820bc6554f07e6ec95ae8f82a5082918b338c13f3e7507a5d27c9f580b76c0"
+  },
+  {
+    "source": "configs/P3_01_FIX03_Paris.yaml",
+    "destination": "configs/unet_Paris.yaml",
+    "source_sha256": "0b576c4383743773781cd78f6ecc768b58480552d28615ab0bbd0ff2f51cc8ae",
+    "release_sha256": "0b576c4383743773781cd78f6ecc768b58480552d28615ab0bbd0ff2f51cc8ae"
+  },
+  {
+    "source": "configs/P3_01_FIX03_Khartoum.yaml",
+    "destination": "configs/unet_Khartoum.yaml",
+    "source_sha256": "1d1a7b2caf526624658e20f847123a16b23d5bfd6b0dd9af4362bbc748991fd9",
+    "release_sha256": "1d1a7b2caf526624658e20f847123a16b23d5bfd6b0dd9af4362bbc748991fd9"
+  },
+  {
+    "source": "configs/P5_02/P5_02_v1_Khartoum_20261115.yaml",
+    "destination": "configs/P5_02/P5_02_v1_Khartoum_20261115.yaml",
+    "source_sha256": "c40693e4b0a13819898b3d2217107c2e497b1811f289c194770d8d65758f5464",
+    "release_sha256": "c40693e4b0a13819898b3d2217107c2e497b1811f289c194770d8d65758f5464"
+  },
+  {
+    "source": "configs/P5_02/P5_02_v1_Khartoum_20261121.yaml",
+    "destination": "configs/P5_02/P5_02_v1_Khartoum_20261121.yaml",
+    "source_sha256": "1992a343729107ace75cdc9aec1b0ee81e362dbb90b85d941bfcaad55cb80f56",
+    "release_sha256": "1992a343729107ace75cdc9aec1b0ee81e362dbb90b85d941bfcaad55cb80f56"
+  },
+  {
+    "source": "configs/P5_02/P5_02_v1_Khartoum_20261122.yaml",
+    "destination": "configs/P5_02/P5_02_v1_Khartoum_20261122.yaml",
+    "source_sha256": "f792a3989232455b29d3d9996c8de7ea1698a664008e67b685a1771696bf61fa",
+    "release_sha256": "f792a3989232455b29d3d9996c8de7ea1698a664008e67b685a1771696bf61fa"
+  },
+  {
+    "source": "configs/P5_02/P5_02_v1_Paris_20261115.yaml",
+    "destination": "configs/P5_02/P5_02_v1_Paris_20261115.yaml",
+    "source_sha256": "82aa1a233a539d8cae936425a7f6c4c320ad1712ca28103b281f92f174b00383",
+    "release_sha256": "82aa1a233a539d8cae936425a7f6c4c320ad1712ca28103b281f92f174b00383"
+  },
+  {
+    "source": "configs/P5_02/P5_02_v1_Paris_20261121.yaml",
+    "destination": "configs/P5_02/P5_02_v1_Paris_20261121.yaml",
+    "source_sha256": "ec1bff7454ef24e4433304b5fc92e56639fe529d427b83e1d40d557921f15599",
+    "release_sha256": "ec1bff7454ef24e4433304b5fc92e56639fe529d427b83e1d40d557921f15599"
+  },
+  {
+    "source": "configs/P5_02/P5_02_v1_Paris_20261122.yaml",
+    "destination": "configs/P5_02/P5_02_v1_Paris_20261122.yaml",
+    "source_sha256": "e2f2a18c88d68e5b4e679498b52cda3405a99c65ce6c09dfa0083ba641528abd",
+    "release_sha256": "e2f2a18c88d68e5b4e679498b52cda3405a99c65ce6c09dfa0083ba641528abd"
+  },
+  {
+    "source": "src/P3_01_FIX03/P3_01_trainer.py",
+    "destination": "src/core.py",
+    "extracted_symbols": [
+      "configure_determinism",
+      "rasterize_scene",
+      "require_rows",
+      "normalization",
+      "SourceDataset",
+      "collate_training",
+      "objective",
+      "upsample_probability",
+      "validate"
+    ],
+    "source_sha256": "bf7f7ce55771bf1afaf261a03312dd8a79b002439dd10a6ab9208908d40df15d",
+    "release_sha256": "90a0572f5084167c36249040b9f6537950767a6bfd7cde87d067e05cca642875"
+  },
+  {
+    "source": "src/p3_02_evaluation.py",
+    "destination": "src/inference.py",
+    "extracted_symbols": [
+      "preprocess",
+      "error_classes",
+      "export_raster"
+    ],
+    "source_sha256": "b92084b0fde4b55ae9ba55b95de335d9f0e88d433996cdc4d92643c1c71c6ac0",
+    "release_sha256": "a90b42717809dfdc991359b1dbf1856885e21c3391872d7253ebb3cd3524469a"
+  },
+  {
+    "source": "scripts/P4_01_analyze.py",
+    "destination": "src/gis.py",
+    "extracted_symbols": [
+      "project",
+      "vectorize",
+      "derive",
+      "summary"
+    ],
+    "source_sha256": "eded3e4aae3e1303ed9b42a4758ab2551d33b9d62da871e184100bf51478611a",
+    "release_sha256": "0b85ca90b0c0ae7981f33c1291c6cdbab9228c03065aad091aedf852378a2c15"
+  },
+  {
+    "source": "scripts/P4_02_diagnose.py",
+    "destination": "src/diagnosis.py",
+    "extracted_symbols": [
+      "metrics",
+      "classify",
+      "summarize"
+    ],
+    "source_sha256": "f9d5507f1796f660964369650e94b2e11c491b08211af79eff3a1b93f450130c",
+    "release_sha256": "0aeb4d5a741fe057cb70253fe54d6ce5dc8437ae00f1292d7e556f0d688bb50c"
+  },
+  {
+    "source": "src/P5_03/common.py",
+    "destination": "src/grids.py",
+    "extracted_symbols": [
+      "shifted_grid_p501"
+    ],
+    "source_sha256": "e33c4957aadfe4dc2c06783513531ea124b59efd31783fc6c731d94eb2c1554e",
+    "release_sha256": "3ee7fe0f189e92cabe8a0e16f85cbe93bd37544dfafd8fa78d247d7979dc20c9"
+  },
+  {
+    "source": "scripts/run_p1_01.py",
+    "destination": "src/support.py",
+    "extracted_symbols": [
+      "observation_mask"
+    ],
+    "source_sha256": "0238288e1c0a34f5aba723de7e180437cb8f756c4cd1320afbcd772589fefed2",
+    "release_sha256": "bad7b7ff481beb784ca1923eab88d08e6c9eea3cbd4f0ad9e833dd90e2fe023d"
+  },
+  {
+    "source": "results/P3_02/metrics/AOI_3_Paris_paired_scenes.csv",
+    "destination": "results/P3_02/metrics/AOI_3_Paris_paired_scenes.csv",
+    "source_sha256": "a8c8c0e3b889ccf72939eda07d1b1aae90323b5098de715b36134ecb659549a6",
+    "release_sha256": "a8c8c0e3b889ccf72939eda07d1b1aae90323b5098de715b36134ecb659549a6"
+  },
+  {
+    "source": "results/P3_02/metrics/AOI_5_Khartoum_paired_scenes.csv",
+    "destination": "results/P3_02/metrics/AOI_5_Khartoum_paired_scenes.csv",
+    "source_sha256": "5e5c5bebce10347ed1e04a8f686e36d2ae7b19ad25f7f71d6693b68baf152235",
+    "release_sha256": "5e5c5bebce10347ed1e04a8f686e36d2ae7b19ad25f7f71d6693b68baf152235"
+  },
+  {
+    "source": "results/P3_02/metrics/A_per_scene.csv",
+    "destination": "results/P3_02/metrics/A_per_scene.csv",
+    "source_sha256": "a4752430a282493e1107e91ff51523baba0882e348a0ffbd17cfe5612e372c06",
+    "release_sha256": "a4752430a282493e1107e91ff51523baba0882e348a0ffbd17cfe5612e372c06"
+  },
+  {
+    "source": "results/P3_02/metrics/A_spatial_groups.csv",
+    "destination": "results/P3_02/metrics/A_spatial_groups.csv",
+    "source_sha256": "ab60b707a73b801c5c17021414673ba9da720a489128c9f47ff65c23a5b0eb13",
+    "release_sha256": "ab60b707a73b801c5c17021414673ba9da720a489128c9f47ff65c23a5b0eb13"
+  },
+  {
+    "source": "results/P3_02/metrics/B_per_scene.csv",
+    "destination": "results/P3_02/metrics/B_per_scene.csv",
+    "source_sha256": "eedfeb9a56f121bdb577c796f9bb31dd2c8d2bd9f492d56e8f8fa26b98abd99b",
+    "release_sha256": "eedfeb9a56f121bdb577c796f9bb31dd2c8d2bd9f492d56e8f8fa26b98abd99b"
+  },
+  {
+    "source": "results/P3_02/metrics/B_spatial_groups.csv",
+    "destination": "results/P3_02/metrics/B_spatial_groups.csv",
+    "source_sha256": "c94d4b9c9c24463a66b9c3836de9e7ca0a52a0a8fbfd4d20c4132726e20fb1b8",
+    "release_sha256": "c94d4b9c9c24463a66b9c3836de9e7ca0a52a0a8fbfd4d20c4132726e20fb1b8"
+  },
+  {
+    "source": "results/P3_02/metrics/C_per_scene.csv",
+    "destination": "results/P3_02/metrics/C_per_scene.csv",
+    "source_sha256": "3bfd2d0ba0c6e58bbfabe832fd2f5f73cdd245ced37bd2b00e2f36665ac174ee",
+    "release_sha256": "3bfd2d0ba0c6e58bbfabe832fd2f5f73cdd245ced37bd2b00e2f36665ac174ee"
+  },
+  {
+    "source": "results/P3_02/metrics/C_spatial_groups.csv",
+    "destination": "results/P3_02/metrics/C_spatial_groups.csv",
+    "source_sha256": "c383303d89fdd3614081100cacb7d231d8532ced75672fd17a39592e7a6d99b0",
+    "release_sha256": "c383303d89fdd3614081100cacb7d231d8532ced75672fd17a39592e7a6d99b0"
+  },
+  {
+    "source": "results/P3_02/metrics/D_per_scene.csv",
+    "destination": "results/P3_02/metrics/D_per_scene.csv",
+    "source_sha256": "6a92bd908b0fd14ced33b128ed8ca14fe828b89db887cf85a6138a0dd6341b81",
+    "release_sha256": "6a92bd908b0fd14ced33b128ed8ca14fe828b89db887cf85a6138a0dd6341b81"
+  },
+  {
+    "source": "results/P3_02/metrics/D_spatial_groups.csv",
+    "destination": "results/P3_02/metrics/D_spatial_groups.csv",
+    "source_sha256": "d17dde1dd059c42fe7a1837b1493251b9dbdfd9d15942733658498c2f04b1ab5",
+    "release_sha256": "d17dde1dd059c42fe7a1837b1493251b9dbdfd9d15942733658498c2f04b1ab5"
+  },
+  {
+    "source": "results/P3_02/metrics/four_route_metrics.csv",
+    "destination": "results/P3_02/metrics/four_route_metrics.csv",
+    "source_sha256": "f126896ce491854947138968ca70645f0fa94718c5c9ba6b01b0046e5bc5ba10",
+    "release_sha256": "f126896ce491854947138968ca70645f0fa94718c5c9ba6b01b0046e5bc5ba10"
+  },
+  {
+    "source": "results/P3_02/metrics/paired_differences.csv",
+    "destination": "results/P3_02/metrics/paired_differences.csv",
+    "source_sha256": "eb7c8d24079da343225c2b33fa50914f762f07ac331320d08088d381fcd14c4e",
+    "release_sha256": "eb7c8d24079da343225c2b33fa50914f762f07ac331320d08088d381fcd14c4e"
+  },
+  {
+    "source": "results/P3_02/metrics/paired_strata_differences.csv",
+    "destination": "results/P3_02/metrics/paired_strata_differences.csv",
+    "source_sha256": "a52cc5aff2ea8a6ce8561ec02bde28e30ff5ec19e3ac49bd6ba99c3316b75636",
+    "release_sha256": "a52cc5aff2ea8a6ce8561ec02bde28e30ff5ec19e3ac49bd6ba99c3316b75636"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_3_Paris_A_100m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_3_Paris_A_100m_cells.csv",
+    "source_sha256": "d400b8ca0b3f96c9efc2dd8009cbc0c78e4f5a56dfe7bc8840acd5ad814525a2",
+    "release_sha256": "d400b8ca0b3f96c9efc2dd8009cbc0c78e4f5a56dfe7bc8840acd5ad814525a2"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_3_Paris_A_250m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_3_Paris_A_250m_cells.csv",
+    "source_sha256": "25d17fa586bbbef29f79c56a88c291611c2ec3eb3686193d02753f7bfdcf00a1",
+    "release_sha256": "25d17fa586bbbef29f79c56a88c291611c2ec3eb3686193d02753f7bfdcf00a1"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_3_Paris_A_500m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_3_Paris_A_500m_cells.csv",
+    "source_sha256": "849ba00261b87f4647e9c5a1721cc412b07fe8f46a64c75f4bd7d2cf29791735",
+    "release_sha256": "849ba00261b87f4647e9c5a1721cc412b07fe8f46a64c75f4bd7d2cf29791735"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_3_Paris_C_100m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_3_Paris_C_100m_cells.csv",
+    "source_sha256": "4e1042e3488bf49b89cb6759a664cc7314f27ad11d9e688af0cd0ba6817fe8b7",
+    "release_sha256": "4e1042e3488bf49b89cb6759a664cc7314f27ad11d9e688af0cd0ba6817fe8b7"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_3_Paris_C_250m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_3_Paris_C_250m_cells.csv",
+    "source_sha256": "ae94259a7b8d8a3282e2e2b0ad0009801215db0ca4ad2c1653ae37cbd1122c5c",
+    "release_sha256": "ae94259a7b8d8a3282e2e2b0ad0009801215db0ca4ad2c1653ae37cbd1122c5c"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_3_Paris_C_500m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_3_Paris_C_500m_cells.csv",
+    "source_sha256": "53fe908e56f40571abb28a43e9551dbe457a4d1aa54ac2dd23506c3c4ac2637d",
+    "release_sha256": "53fe908e56f40571abb28a43e9551dbe457a4d1aa54ac2dd23506c3c4ac2637d"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_5_Khartoum_B_100m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_5_Khartoum_B_100m_cells.csv",
+    "source_sha256": "f113863387da3eacd06350600f296bebe779172b9494ecbf0808d12d7fa129dd",
+    "release_sha256": "f113863387da3eacd06350600f296bebe779172b9494ecbf0808d12d7fa129dd"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_5_Khartoum_B_250m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_5_Khartoum_B_250m_cells.csv",
+    "source_sha256": "675657fc73d707513ef33a72a7b687fb3016c7edf677570eb23e6f489218e9eb",
+    "release_sha256": "675657fc73d707513ef33a72a7b687fb3016c7edf677570eb23e6f489218e9eb"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_5_Khartoum_B_500m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_5_Khartoum_B_500m_cells.csv",
+    "source_sha256": "8710c4501476fd4a7f4fd617fef2e7047a60445819229b7ac0457fb4567d8fba",
+    "release_sha256": "8710c4501476fd4a7f4fd617fef2e7047a60445819229b7ac0457fb4567d8fba"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_5_Khartoum_D_100m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_5_Khartoum_D_100m_cells.csv",
+    "source_sha256": "2434ab10120ec350496f02d6f51fef290971f5973a1c7284f7fea023af73e0af",
+    "release_sha256": "2434ab10120ec350496f02d6f51fef290971f5973a1c7284f7fea023af73e0af"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_5_Khartoum_D_250m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_5_Khartoum_D_250m_cells.csv",
+    "source_sha256": "028357c88b5483c594184eeed8d22bd1ee981c3ed9a0c564bdbbd83142442436",
+    "release_sha256": "028357c88b5483c594184eeed8d22bd1ee981c3ed9a0c564bdbbd83142442436"
+  },
+  {
+    "source": "results/P4_01/tables/AOI_5_Khartoum_D_500m_cells.csv",
+    "destination": "results/P4_01/tables/AOI_5_Khartoum_D_500m_cells.csv",
+    "source_sha256": "ae4bcd5b01d1f5c2f6c76db690bfe6b1899dd4e5ed52f132e4f4e3c80091d257",
+    "release_sha256": "ae4bcd5b01d1f5c2f6c76db690bfe6b1899dd4e5ed52f132e4f4e3c80091d257"
+  },
+  {
+    "source": "results/P4_01/tables/coverage_diagnostics.csv",
+    "destination": "results/P4_01/tables/coverage_diagnostics.csv",
+    "source_sha256": "59ed4249fb55615d2775f69420109a6a8de4abac6dc932b60bcbbead8c0db52e",
+    "release_sha256": "59ed4249fb55615d2775f69420109a6a8de4abac6dc932b60bcbbead8c0db52e"
+  },
+  {
+    "source": "results/P4_01/tables/FN_concentration_vs_GT_exposure.csv",
+    "destination": "results/P4_01/tables/FN_concentration_vs_GT_exposure.csv",
+    "source_sha256": "95bb75012408ff651e794f8639f2dd630f479d816cbfae110219050674138514",
+    "release_sha256": "95bb75012408ff651e794f8639f2dd630f479d816cbfae110219050674138514"
+  },
+  {
+    "source": "results/P4_01/tables/locked_group_grid_contributions.csv",
+    "destination": "results/P4_01/tables/locked_group_grid_contributions.csv",
+    "source_sha256": "3fbc343b5234e811955f601b92f60b155250149b9bb4ba7e9531363c525df131",
+    "release_sha256": "3fbc343b5234e811955f601b92f60b155250149b9bb4ba7e9531363c525df131"
+  },
+  {
+    "source": "results/P4_01/tables/object_count_sensitivity.csv",
+    "destination": "results/P4_01/tables/object_count_sensitivity.csv",
+    "source_sha256": "8e824bcae3a62bc16967b308e40b19037a2bca4798daca671076f64677326f4e",
+    "release_sha256": "8e824bcae3a62bc16967b308e40b19037a2bca4798daca671076f64677326f4e"
+  },
+  {
+    "source": "results/P4_01/tables/object_sensitivity_summary.csv",
+    "destination": "results/P4_01/tables/object_sensitivity_summary.csv",
+    "source_sha256": "09542e97e1d387f17b2072bb57bde3d2133416f276d5fdb98f6871a011f3ee19",
+    "release_sha256": "09542e97e1d387f17b2072bb57bde3d2133416f276d5fdb98f6871a011f3ee19"
+  },
+  {
+    "source": "results/P4_01/tables/paired_cells.csv",
+    "destination": "results/P4_01/tables/paired_cells.csv",
+    "source_sha256": "6d8950d72d211303e59a2dbac441326608b214dffb180cb061f029e624bb2f84",
+    "release_sha256": "6d8950d72d211303e59a2dbac441326608b214dffb180cb061f029e624bb2f84"
+  },
+  {
+    "source": "results/P4_01/tables/paired_scale_summary.csv",
+    "destination": "results/P4_01/tables/paired_scale_summary.csv",
+    "source_sha256": "7ff6fd9c5dfbd49c8e12320c1bfd4c7042eced23847310084aeced6bf590bdd9",
+    "release_sha256": "7ff6fd9c5dfbd49c8e12320c1bfd4c7042eced23847310084aeced6bf590bdd9"
+  },
+  {
+    "source": "results/P4_01/tables/reference_density_strata.csv",
+    "destination": "results/P4_01/tables/reference_density_strata.csv",
+    "source_sha256": "6b8b3a6ac8ce698453ba236a81d42af10e5b52cdec0ffc4becc4509a846d7005",
+    "release_sha256": "6b8b3a6ac8ce698453ba236a81d42af10e5b52cdec0ffc4becc4509a846d7005"
+  },
+  {
+    "source": "results/P4_01/tables/scale_effect_evidence.csv",
+    "destination": "results/P4_01/tables/scale_effect_evidence.csv",
+    "source_sha256": "932558499041232217fac0eb2ebe09b8400f25c1afaa15bf16fd9a6ddc92b192",
+    "release_sha256": "932558499041232217fac0eb2ebe09b8400f25c1afaa15bf16fd9a6ddc92b192"
+  },
+  {
+    "source": "results/P4_01/tables/scale_summary.csv",
+    "destination": "results/P4_01/tables/scale_summary.csv",
+    "source_sha256": "91e4185889d0fb29323feee022a198ce289690cc37fae28ec8ad7be1ef1ada84",
+    "release_sha256": "91e4185889d0fb29323feee022a198ce289690cc37fae28ec8ad7be1ef1ada84"
+  },
+  {
+    "source": "results/P4_01/tables/scene_overlap_ownership.csv",
+    "destination": "results/P4_01/tables/scene_overlap_ownership.csv",
+    "source_sha256": "4944b0ea8512321fb676487ea0a7430e4be23d8548a8e33627746a8e5be33382",
+    "release_sha256": "4944b0ea8512321fb676487ea0a7430e4be23d8548a8e33627746a8e5be33382"
+  },
+  {
+    "source": "results/P4_01/tables/support_area_quantiles.csv",
+    "destination": "results/P4_01/tables/support_area_quantiles.csv",
+    "source_sha256": "d6c05becd55d7f74304d91297a52e66fa93dbc377ec5d8fb6493edace4ccc286",
+    "release_sha256": "d6c05becd55d7f74304d91297a52e66fa93dbc377ec5d8fb6493edace4ccc286"
+  },
+  {
+    "source": "results/P4_02/tables/all_27_scenarios.csv",
+    "destination": "results/P4_02/tables/all_27_scenarios.csv",
+    "source_sha256": "a21434765cee0e1a0bb0c7ee8010af25c0566e9cabede5d06e3c98993373598e",
+    "release_sha256": "a21434765cee0e1a0bb0c7ee8010af25c0566e9cabede5d06e3c98993373598e"
+  },
+  {
+    "source": "results/P4_02/tables/all_continuous_main.csv",
+    "destination": "results/P4_02/tables/all_continuous_main.csv",
+    "source_sha256": "f85ff824eef2b1f2266bf7b2326597b722c74849971c466becdc215ebbb577a2",
+    "release_sha256": "f85ff824eef2b1f2266bf7b2326597b722c74849971c466becdc215ebbb577a2"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_3_Paris_A_100m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_3_Paris_A_100m_continuous_and_main.csv",
+    "source_sha256": "81484d30c497504c40873107466e7bbee7ceda583b0dc83f7a87274cd4c1c283",
+    "release_sha256": "81484d30c497504c40873107466e7bbee7ceda583b0dc83f7a87274cd4c1c283"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_3_Paris_A_250m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_3_Paris_A_250m_continuous_and_main.csv",
+    "source_sha256": "e36d120db13fb0271806a6c1d8a41c96f3bac20ea79671c87fbd91e85937ed44",
+    "release_sha256": "e36d120db13fb0271806a6c1d8a41c96f3bac20ea79671c87fbd91e85937ed44"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_3_Paris_A_500m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_3_Paris_A_500m_continuous_and_main.csv",
+    "source_sha256": "6836af1b0be223d47d295cb3cb792167476fbb604969c09f999d55f73df1ae8e",
+    "release_sha256": "6836af1b0be223d47d295cb3cb792167476fbb604969c09f999d55f73df1ae8e"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_3_Paris_C_100m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_3_Paris_C_100m_continuous_and_main.csv",
+    "source_sha256": "5ecd6812c9585af8c15ea51895b4ca12739a84773f85f9a25db6e27ecc6f1401",
+    "release_sha256": "5ecd6812c9585af8c15ea51895b4ca12739a84773f85f9a25db6e27ecc6f1401"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_3_Paris_C_250m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_3_Paris_C_250m_continuous_and_main.csv",
+    "source_sha256": "2da6369a81bd91b5db422212a22be50adc00e7e6b221e34c66e47a43740c56fe",
+    "release_sha256": "2da6369a81bd91b5db422212a22be50adc00e7e6b221e34c66e47a43740c56fe"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_3_Paris_C_500m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_3_Paris_C_500m_continuous_and_main.csv",
+    "source_sha256": "0af9253676f601afb1ae72c09c29a62d5771c690ea83e5b6c306c9b3f1ab87da",
+    "release_sha256": "0af9253676f601afb1ae72c09c29a62d5771c690ea83e5b6c306c9b3f1ab87da"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_5_Khartoum_B_100m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_5_Khartoum_B_100m_continuous_and_main.csv",
+    "source_sha256": "5066c322e417e1c299238a76225275448d3bb94ec80122b43e46aa143f59f43d",
+    "release_sha256": "5066c322e417e1c299238a76225275448d3bb94ec80122b43e46aa143f59f43d"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_5_Khartoum_B_250m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_5_Khartoum_B_250m_continuous_and_main.csv",
+    "source_sha256": "95bd6f6a90e8d3ce6798ea06f719db2f8e8fcd01c0afc0c05b03faae5f39e898",
+    "release_sha256": "95bd6f6a90e8d3ce6798ea06f719db2f8e8fcd01c0afc0c05b03faae5f39e898"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_5_Khartoum_B_500m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_5_Khartoum_B_500m_continuous_and_main.csv",
+    "source_sha256": "eb01afddb115c0e02329275247d01327b283a855cd3b41a6bd4e625b30007980",
+    "release_sha256": "eb01afddb115c0e02329275247d01327b283a855cd3b41a6bd4e625b30007980"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_5_Khartoum_D_100m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_5_Khartoum_D_100m_continuous_and_main.csv",
+    "source_sha256": "39540c02faa1b49149e5a833d80a01ed4a3286e60bae6c097fd507c06382ea40",
+    "release_sha256": "39540c02faa1b49149e5a833d80a01ed4a3286e60bae6c097fd507c06382ea40"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_5_Khartoum_D_250m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_5_Khartoum_D_250m_continuous_and_main.csv",
+    "source_sha256": "a31d32b903259d92a8e12f77cd078755092bb4020641d62571bd6a8cf135db85",
+    "release_sha256": "a31d32b903259d92a8e12f77cd078755092bb4020641d62571bd6a8cf135db85"
+  },
+  {
+    "source": "results/P4_02/tables/AOI_5_Khartoum_D_500m_continuous_and_main.csv",
+    "destination": "results/P4_02/tables/AOI_5_Khartoum_D_500m_continuous_and_main.csv",
+    "source_sha256": "7d9b71c4653521566ffc23572420bc8ca7b64f84c8692e5d8e6517a0856d4730",
+    "release_sha256": "7d9b71c4653521566ffc23572420bc8ca7b64f84c8692e5d8e6517a0856d4730"
+  },
+  {
+    "source": "results/P4_02/tables/case_selection.csv",
+    "destination": "results/P4_02/tables/case_selection.csv",
+    "source_sha256": "9125e8d5d85e18b98704bbe1b9009fa183c61a4d9b3b40505b24fcfb549dc092",
+    "release_sha256": "9125e8d5d85e18b98704bbe1b9009fa183c61a4d9b3b40505b24fcfb549dc092"
+  },
+  {
+    "source": "results/P4_02/tables/main_scenario_summary.csv",
+    "destination": "results/P4_02/tables/main_scenario_summary.csv",
+    "source_sha256": "867abce9586730a57e50a103a11a29a0d3c25f5d114b5786ccfaae478141ed8c",
+    "release_sha256": "867abce9586730a57e50a103a11a29a0d3c25f5d114b5786ccfaae478141ed8c"
+  },
+  {
+    "source": "results/P4_02/tables/masking_error_budget_all_scenarios.csv",
+    "destination": "results/P4_02/tables/masking_error_budget_all_scenarios.csv",
+    "source_sha256": "ee0706f3fb72da2c97e99d390dc3f19ffddfbfe0a37bb685244005137aee624f",
+    "release_sha256": "ee0706f3fb72da2c97e99d390dc3f19ffddfbfe0a37bb685244005137aee624f"
+  },
+  {
+    "source": "results/P4_02/tables/paired_main_cells.csv",
+    "destination": "results/P4_02/tables/paired_main_cells.csv",
+    "source_sha256": "f645647600fe7a8787702ef6b87dd88ccc2fe3d6ed1b57ad0f059cc50c6536bb",
+    "release_sha256": "f645647600fe7a8787702ef6b87dd88ccc2fe3d6ed1b57ad0f059cc50c6536bb"
+  },
+  {
+    "source": "results/P4_02/tables/paired_scenario_comparisons.csv",
+    "destination": "results/P4_02/tables/paired_scenario_comparisons.csv",
+    "source_sha256": "293173a21597e609d1e64d1f8dedbf1f86fa753eaffed675a2a1687e07064df1",
+    "release_sha256": "293173a21597e609d1e64d1f8dedbf1f86fa753eaffed675a2a1687e07064df1"
+  },
+  {
+    "source": "results/P4_02/tables/paired_scenario_deltas.csv",
+    "destination": "results/P4_02/tables/paired_scenario_deltas.csv",
+    "source_sha256": "99b68c9fe0969ba479afbf83b4e28508fbdea3c68fac791d8324d20d2ea49cdf",
+    "release_sha256": "99b68c9fe0969ba479afbf83b4e28508fbdea3c68fac791d8324d20d2ea49cdf"
+  },
+  {
+    "source": "results/P4_02/tables/sensitivity_range_all_scenarios.csv",
+    "destination": "results/P4_02/tables/sensitivity_range_all_scenarios.csv",
+    "source_sha256": "0b0c40349477acc5f0185c065adf828f5480183a6fa0b474d283e2e6527a4121",
+    "release_sha256": "0b0c40349477acc5f0185c065adf828f5480183a6fa0b474d283e2e6527a4121"
+  },
+  {
+    "source": "results/P5_01/tables/all_27_method_controls.csv",
+    "destination": "results/P5_01/tables/all_27_method_controls.csv",
+    "source_sha256": "f3412face8f4eb2034f66e9cd442dc50f4686e07c23faf23253903b02a3e806c",
+    "release_sha256": "f3412face8f4eb2034f66e9cd442dc50f4686e07c23faf23253903b02a3e806c"
+  },
+  {
+    "source": "results/P5_01/tables/all_spatial_summaries.csv",
+    "destination": "results/P5_01/tables/all_spatial_summaries.csv",
+    "source_sha256": "ec9b1cf015d4fca6a4b22c7f180f91c012296539d17a3e2a8e494b1de8ff4231",
+    "release_sha256": "ec9b1cf015d4fca6a4b22c7f180f91c012296539d17a3e2a8e494b1de8ff4231"
+  },
+  {
+    "source": "results/P5_01/tables/core_area_and_cancellation_ranges.csv",
+    "destination": "results/P5_01/tables/core_area_and_cancellation_ranges.csv",
+    "source_sha256": "b6a53bae3a8468e6643048a3def802858d51ac8ef3615381a0f0b770c0845c85",
+    "release_sha256": "b6a53bae3a8468e6643048a3def802858d51ac8ef3615381a0f0b770c0845c85"
+  },
+  {
+    "source": "results/P5_01/tables/core_method_ranges.csv",
+    "destination": "results/P5_01/tables/core_method_ranges.csv",
+    "source_sha256": "6a9261fdba471a3878533fd3de920e9a280a1caa84108849f0b5ce65f17da52e",
+    "release_sha256": "6a9261fdba471a3878533fd3de920e9a280a1caa84108849f0b5ce65f17da52e"
+  },
+  {
+    "source": "results/P5_01/tables/core_transfer_ranges.csv",
+    "destination": "results/P5_01/tables/core_transfer_ranges.csv",
+    "source_sha256": "3f7e4bb7a61650ba8da7aca27749cd5420c989b4d7611af3537a0b5c1dd9c5ed",
+    "release_sha256": "3f7e4bb7a61650ba8da7aca27749cd5420c989b4d7611af3537a0b5c1dd9c5ed"
+  },
+  {
+    "source": "results/P5_01/tables/grid_origin_27_scenarios.csv",
+    "destination": "results/P5_01/tables/grid_origin_27_scenarios.csv",
+    "source_sha256": "d7c5f35e61283277b43ea2d2b44827236945e0ca49ddd126be93f9ba3351031f",
+    "release_sha256": "d7c5f35e61283277b43ea2d2b44827236945e0ca49ddd126be93f9ba3351031f"
+  },
+  {
+    "source": "results/P5_01/tables/grid_origin_method_controls.csv",
+    "destination": "results/P5_01/tables/grid_origin_method_controls.csv",
+    "source_sha256": "a3be459522c63828d7615039df4933de30e882a02ba69acb7aee04b1b733225f",
+    "release_sha256": "a3be459522c63828d7615039df4933de30e882a02ba69acb7aee04b1b733225f"
+  },
+  {
+    "source": "results/P5_01/tables/grid_origin_sensitivity.csv",
+    "destination": "results/P5_01/tables/grid_origin_sensitivity.csv",
+    "source_sha256": "ed59b10ab8c311bad21c195671627d1ad97ab3d7a1ae30456b61c93da681ab47",
+    "release_sha256": "ed59b10ab8c311bad21c195671627d1ad97ab3d7a1ae30456b61c93da681ab47"
+  },
+  {
+    "source": "results/P5_01/tables/method_controls_main.csv",
+    "destination": "results/P5_01/tables/method_controls_main.csv",
+    "source_sha256": "7204170938026120c25b5ea1192f7e0dda7932fa106f8b1e9662258e8b62430b",
+    "release_sha256": "7204170938026120c25b5ea1192f7e0dda7932fa106f8b1e9662258e8b62430b"
+  },
+  {
+    "source": "results/P5_01/tables/multi_seed_metrics.csv",
+    "destination": "results/P5_01/tables/multi_seed_metrics.csv",
+    "source_sha256": "3cc2197d0f7cf52a1571a2417302c9072aec8115d56f55ffbec8b22c5cc32e37",
+    "release_sha256": "3cc2197d0f7cf52a1571a2417302c9072aec8115d56f55ffbec8b22c5cc32e37"
+  },
+  {
+    "source": "results/P5_01/tables/multi_seed_paired_differences.csv",
+    "destination": "results/P5_01/tables/multi_seed_paired_differences.csv",
+    "source_sha256": "c6e7c75b6060f956f67dd174da338bd3cde7409483ecd87cbb56addb41be0e5a",
+    "release_sha256": "c6e7c75b6060f956f67dd174da338bd3cde7409483ecd87cbb56addb41be0e5a"
+  },
+  {
+    "source": "results/P5_01/tables/net_pass_spatial_error_budgets_all_27.csv",
+    "destination": "results/P5_01/tables/net_pass_spatial_error_budgets_all_27.csv",
+    "source_sha256": "39f1c95b1bdd4fddeed72dfba631978071e4320f9a3ad545e47e9a62669be4d5",
+    "release_sha256": "39f1c95b1bdd4fddeed72dfba631978071e4320f9a3ad545e47e9a62669be4d5"
+  },
+  {
+    "source": "results/P5_01/tables/net_pass_spatial_error_budgets_main.csv",
+    "destination": "results/P5_01/tables/net_pass_spatial_error_budgets_main.csv",
+    "source_sha256": "730710619c65093e79d36ecb99e5d7dcfc9f233c8c7ce685adc48f4788526fbf",
+    "release_sha256": "730710619c65093e79d36ecb99e5d7dcfc9f233c8c7ce685adc48f4788526fbf"
+  },
+  {
+    "source": "results/P5_01/tables/new_seed_scene_ledger.csv",
+    "destination": "results/P5_01/tables/new_seed_scene_ledger.csv",
+    "source_sha256": "d75a943f30ed1bca0193935dfc9cafa831ce9db388a7da155aa64ec79bf912b8",
+    "release_sha256": "d75a943f30ed1bca0193935dfc9cafa831ce9db388a7da155aa64ec79bf912b8"
+  },
+  {
+    "source": "results/P5_01/tables/paper_core_evidence.csv",
+    "destination": "results/P5_01/tables/paper_core_evidence.csv",
+    "source_sha256": "f6a3deff5fdf05bf835f8e48b3dbe4f0b5d6e090acc8d6c0cc5484203b29ba60",
+    "release_sha256": "f6a3deff5fdf05bf835f8e48b3dbe4f0b5d6e090acc8d6c0cc5484203b29ba60"
+  },
+  {
+    "source": "results/P5_01/tables/paper_core_evidence_final.csv",
+    "destination": "results/P5_01/tables/paper_core_evidence_final.csv",
+    "source_sha256": "08e025caebd04d49f3c1c2d7dddcf8c6a161480f0acb8957c271fab96421114c",
+    "release_sha256": "08e025caebd04d49f3c1c2d7dddcf8c6a161480f0acb8957c271fab96421114c"
+  },
+  {
+    "source": "results/P5_01/tables/seed_changes_vs_original.csv",
+    "destination": "results/P5_01/tables/seed_changes_vs_original.csv",
+    "source_sha256": "2324e7c498fefc6afaebb501c224a5107ed49a85084e431b903a711240a1041f",
+    "release_sha256": "2324e7c498fefc6afaebb501c224a5107ed49a85084e431b903a711240a1041f"
+  },
+  {
+    "source": "results/P5_01/tables/seed_variability_descriptive.csv",
+    "destination": "results/P5_01/tables/seed_variability_descriptive.csv",
+    "source_sha256": "9bb151417eec0c5a37cf36fdeb4ad8816a722a127152baf397de242cd35c8aac",
+    "release_sha256": "9bb151417eec0c5a37cf36fdeb4ad8816a722a127152baf397de242cd35c8aac"
+  },
+  {
+    "source": "results/P5_01/tables/training_completion.csv",
+    "destination": "results/P5_01/tables/training_completion.csv",
+    "source_sha256": "66f0b68ba53f0fddc61adf3ee0e83ee09fb9ffb0d9a32e597aea9cda6d579bbe",
+    "release_sha256": "66f0b68ba53f0fddc61adf3ee0e83ee09fb9ffb0d9a32e597aea9cda6d579bbe"
+  },
+  {
+    "source": "results/P5_01/tables/unique_support_area_bias_by_seed.csv",
+    "destination": "results/P5_01/tables/unique_support_area_bias_by_seed.csv",
+    "source_sha256": "8e7698fa8ff40afa4f6e333e2507a529ecb6b7a60444fa703fa26200023d7c8b",
+    "release_sha256": "8e7698fa8ff40afa4f6e333e2507a529ecb6b7a60444fa703fa26200023d7c8b"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_100m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_100m_xy_half.csv",
+    "source_sha256": "ae6bc6f2462017f0009d98e282c1f5b890c46f7eb31e9c02cc471ac9ef3029f0",
+    "release_sha256": "ae6bc6f2462017f0009d98e282c1f5b890c46f7eb31e9c02cc471ac9ef3029f0"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_100m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_100m_x_half.csv",
+    "source_sha256": "67ea1863e19f5ff9a2644176caaec6acc7e5d8a227686d95c1cb889d276e56ec",
+    "release_sha256": "67ea1863e19f5ff9a2644176caaec6acc7e5d8a227686d95c1cb889d276e56ec"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_100m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_100m_y_half.csv",
+    "source_sha256": "9e58a6b0c49cbfa1f739d9526a57262d68c9837d5b93247b1e0d84b8f1f3ea28",
+    "release_sha256": "9e58a6b0c49cbfa1f739d9526a57262d68c9837d5b93247b1e0d84b8f1f3ea28"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_250m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_250m_xy_half.csv",
+    "source_sha256": "52fe2ea5c35bc213b3bbc70709bbca68fbfadf5f07950647765510b4942dc949",
+    "release_sha256": "52fe2ea5c35bc213b3bbc70709bbca68fbfadf5f07950647765510b4942dc949"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_250m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_250m_x_half.csv",
+    "source_sha256": "7c2b822239a13042961ac2335cedff8c1c21f9432eba2770a1e12aec3ef9f72d",
+    "release_sha256": "7c2b822239a13042961ac2335cedff8c1c21f9432eba2770a1e12aec3ef9f72d"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_250m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_250m_y_half.csv",
+    "source_sha256": "f1654ae638abab9506ba3368c1731b04000d5ab5957bb1ee896cb30b4f9c3787",
+    "release_sha256": "f1654ae638abab9506ba3368c1731b04000d5ab5957bb1ee896cb30b4f9c3787"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_500m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_500m_xy_half.csv",
+    "source_sha256": "27ee3ccf6395ba043f5a168e584b8cfd12a6e2f80a94547cf2290e1bf89b068e",
+    "release_sha256": "27ee3ccf6395ba043f5a168e584b8cfd12a6e2f80a94547cf2290e1bf89b068e"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_500m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_500m_x_half.csv",
+    "source_sha256": "d5ad3f238f3a51ede013a4af2368c078070cdeebed738fc585b0dc9dfcbaff91",
+    "release_sha256": "d5ad3f238f3a51ede013a4af2368c078070cdeebed738fc585b0dc9dfcbaff91"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_500m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261115_500m_y_half.csv",
+    "source_sha256": "d88773bb2e4acb5085b6c4b872c0edb9e98c32245eb8f9597200c4696b2c6cda",
+    "release_sha256": "d88773bb2e4acb5085b6c4b872c0edb9e98c32245eb8f9597200c4696b2c6cda"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261121_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261121_100m_original.csv",
+    "source_sha256": "6456b3960529296ac773aff23b5bc08b47f30284e78b9e5b2a170bfd291b3d3d",
+    "release_sha256": "6456b3960529296ac773aff23b5bc08b47f30284e78b9e5b2a170bfd291b3d3d"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261121_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261121_250m_original.csv",
+    "source_sha256": "6145599381d17e9867cd797dd425c160390e155bdb7542cf7c4b657ca7b3251b",
+    "release_sha256": "6145599381d17e9867cd797dd425c160390e155bdb7542cf7c4b657ca7b3251b"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261121_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261121_500m_original.csv",
+    "source_sha256": "d436924e3994803d4515b869b4648aaf2d80e4245d1fbf75f106f7219afccfe8",
+    "release_sha256": "d436924e3994803d4515b869b4648aaf2d80e4245d1fbf75f106f7219afccfe8"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261122_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261122_100m_original.csv",
+    "source_sha256": "5203b21863696f02b65b55ff30dc17730e1d13b0a2cac9f307bfc16bba60855a",
+    "release_sha256": "5203b21863696f02b65b55ff30dc17730e1d13b0a2cac9f307bfc16bba60855a"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261122_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261122_250m_original.csv",
+    "source_sha256": "ab7514506a060878c0f95fa0b776f0b1d31d808b807770fc0387fdd74a46b72a",
+    "release_sha256": "ab7514506a060878c0f95fa0b776f0b1d31d808b807770fc0387fdd74a46b72a"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_A_20261122_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_A_20261122_500m_original.csv",
+    "source_sha256": "e7a61f07b902571d375de9e6411ff40167a8b1484de47ac06a5b2e8facd50722",
+    "release_sha256": "e7a61f07b902571d375de9e6411ff40167a8b1484de47ac06a5b2e8facd50722"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_100m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_100m_xy_half.csv",
+    "source_sha256": "00e459666c83a92b7104e35788465d2414c80457258136f44f5686ec71cdbcde",
+    "release_sha256": "00e459666c83a92b7104e35788465d2414c80457258136f44f5686ec71cdbcde"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_100m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_100m_x_half.csv",
+    "source_sha256": "8c202d012ae27c9da7217e027cf6154d6349f91579e9cd16b1153939e1ff39be",
+    "release_sha256": "8c202d012ae27c9da7217e027cf6154d6349f91579e9cd16b1153939e1ff39be"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_100m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_100m_y_half.csv",
+    "source_sha256": "0d6262184187c44d4cf9a08d0bafe40eb50750bfbc7a0c5592ac8d148b13a6e3",
+    "release_sha256": "0d6262184187c44d4cf9a08d0bafe40eb50750bfbc7a0c5592ac8d148b13a6e3"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_250m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_250m_xy_half.csv",
+    "source_sha256": "8897771bc5407daccefd655ff9740cac29fd3c9cda69ef774e182a2200b5eab2",
+    "release_sha256": "8897771bc5407daccefd655ff9740cac29fd3c9cda69ef774e182a2200b5eab2"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_250m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_250m_x_half.csv",
+    "source_sha256": "ec38102072f1c49343c568562eec39ea00ddc0dcec043ff382b0e87ffd9d5f46",
+    "release_sha256": "ec38102072f1c49343c568562eec39ea00ddc0dcec043ff382b0e87ffd9d5f46"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_250m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_250m_y_half.csv",
+    "source_sha256": "9c4d5ea523250fb9ad8ca1f326d97ad0d2d9b1a5462b9a33eb38c3dedae54959",
+    "release_sha256": "9c4d5ea523250fb9ad8ca1f326d97ad0d2d9b1a5462b9a33eb38c3dedae54959"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_500m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_500m_xy_half.csv",
+    "source_sha256": "4c239d09565fb3fa5f6c47b3a4e4b0f69e0197023f3d95150900e2686207da9d",
+    "release_sha256": "4c239d09565fb3fa5f6c47b3a4e4b0f69e0197023f3d95150900e2686207da9d"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_500m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_500m_x_half.csv",
+    "source_sha256": "4d2bc0a5d2ad39375de689316b0021dafef5a591c08ca2f7284c5898f2e4f418",
+    "release_sha256": "4d2bc0a5d2ad39375de689316b0021dafef5a591c08ca2f7284c5898f2e4f418"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_500m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261115_500m_y_half.csv",
+    "source_sha256": "ceb40fd512032636348c78ed5fb912f5e70601e66e17f9c728b1c5881d3fc4d7",
+    "release_sha256": "ceb40fd512032636348c78ed5fb912f5e70601e66e17f9c728b1c5881d3fc4d7"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261121_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261121_100m_original.csv",
+    "source_sha256": "0735dc3ca14cb53030f4e4568cb0c02370a6ad75bbab402207b23481ae48049c",
+    "release_sha256": "0735dc3ca14cb53030f4e4568cb0c02370a6ad75bbab402207b23481ae48049c"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261121_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261121_250m_original.csv",
+    "source_sha256": "160c2e973471ad194d06388c52e77966e9c2c93c0af3948689e99644deee7d96",
+    "release_sha256": "160c2e973471ad194d06388c52e77966e9c2c93c0af3948689e99644deee7d96"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261121_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261121_500m_original.csv",
+    "source_sha256": "ed28e7a25f0e45acf748cbea72cd7d70b3667556be9cd7608149684d07d923fe",
+    "release_sha256": "ed28e7a25f0e45acf748cbea72cd7d70b3667556be9cd7608149684d07d923fe"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261122_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261122_100m_original.csv",
+    "source_sha256": "0c626c78196529b524f75aaa17bc460491ed37a697da378e773ef48df8174742",
+    "release_sha256": "0c626c78196529b524f75aaa17bc460491ed37a697da378e773ef48df8174742"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261122_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261122_250m_original.csv",
+    "source_sha256": "5433d46561361ef081bfd8c963d2381c8a8a911b81b5e97aab422ceb63efec0c",
+    "release_sha256": "5433d46561361ef081bfd8c963d2381c8a8a911b81b5e97aab422ceb63efec0c"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_3_Paris_C_20261122_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_3_Paris_C_20261122_500m_original.csv",
+    "source_sha256": "48da0bfc0dbcfbdfdf16606031bce3fa7eb080491d7830526ed8bbce6fa29a66",
+    "release_sha256": "48da0bfc0dbcfbdfdf16606031bce3fa7eb080491d7830526ed8bbce6fa29a66"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_100m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_100m_xy_half.csv",
+    "source_sha256": "abab47932c8263ff36fe1fd03f1489ada854f61ac82fa75e5e4292ebb9e8bc88",
+    "release_sha256": "abab47932c8263ff36fe1fd03f1489ada854f61ac82fa75e5e4292ebb9e8bc88"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_100m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_100m_x_half.csv",
+    "source_sha256": "d6b433872619a002fb3410d2a975270858c45d8b21db2af6d2396893ea1e6f1d",
+    "release_sha256": "d6b433872619a002fb3410d2a975270858c45d8b21db2af6d2396893ea1e6f1d"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_100m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_100m_y_half.csv",
+    "source_sha256": "95f6953f25a44241a4d7616c53efa023a9c1ab39e01561ee294250d28f3e4713",
+    "release_sha256": "95f6953f25a44241a4d7616c53efa023a9c1ab39e01561ee294250d28f3e4713"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_250m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_250m_xy_half.csv",
+    "source_sha256": "a39e574b327e44b36fbf01fa47fc613c98caccfcb0cc490dd4dad89e5727d047",
+    "release_sha256": "a39e574b327e44b36fbf01fa47fc613c98caccfcb0cc490dd4dad89e5727d047"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_250m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_250m_x_half.csv",
+    "source_sha256": "51f9bb008a502f85cf62a91244867277793f2ecf88e7e95c3644da568402a7e7",
+    "release_sha256": "51f9bb008a502f85cf62a91244867277793f2ecf88e7e95c3644da568402a7e7"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_250m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_250m_y_half.csv",
+    "source_sha256": "996b09a305ee51d8e53804eea7f735766a8d54141097122ae75878adcca77811",
+    "release_sha256": "996b09a305ee51d8e53804eea7f735766a8d54141097122ae75878adcca77811"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_500m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_500m_xy_half.csv",
+    "source_sha256": "286e794e67ec09ada396a300f71375c389470f71c7ce9aa7e9dcc7283d19136b",
+    "release_sha256": "286e794e67ec09ada396a300f71375c389470f71c7ce9aa7e9dcc7283d19136b"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_500m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_500m_x_half.csv",
+    "source_sha256": "d1d23334c96ac24b480fcaf09dadc67c847db18ef29c6f04e2122da627fb12a9",
+    "release_sha256": "d1d23334c96ac24b480fcaf09dadc67c847db18ef29c6f04e2122da627fb12a9"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_500m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261115_500m_y_half.csv",
+    "source_sha256": "4eabfbc505f1236b051b21247cc4f220997bedfc354afb54dd3221aaad908664",
+    "release_sha256": "4eabfbc505f1236b051b21247cc4f220997bedfc354afb54dd3221aaad908664"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261121_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261121_100m_original.csv",
+    "source_sha256": "f82d07b2f104c302afaa53ee04057fe16f8f0c2845ff48bd32a3edac649b70f4",
+    "release_sha256": "f82d07b2f104c302afaa53ee04057fe16f8f0c2845ff48bd32a3edac649b70f4"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261121_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261121_250m_original.csv",
+    "source_sha256": "440fb8484e84eb2cf1866d3590c72e206da2d79f118987eae4e7c837b1ce3a7f",
+    "release_sha256": "440fb8484e84eb2cf1866d3590c72e206da2d79f118987eae4e7c837b1ce3a7f"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261121_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261121_500m_original.csv",
+    "source_sha256": "12838e39115228bd10e711cbc69b981ebd893f681c9992c19025958b36858338",
+    "release_sha256": "12838e39115228bd10e711cbc69b981ebd893f681c9992c19025958b36858338"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261122_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261122_100m_original.csv",
+    "source_sha256": "73a855e1574aca7d26be4a7ee68b8dbcf3f7c3fba61a069996e81e62468de035",
+    "release_sha256": "73a855e1574aca7d26be4a7ee68b8dbcf3f7c3fba61a069996e81e62468de035"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261122_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261122_250m_original.csv",
+    "source_sha256": "a5c347ffa9a9bcf3523769bf45f221d93ba693a53d7c7dd1632c93c94ab56280",
+    "release_sha256": "a5c347ffa9a9bcf3523769bf45f221d93ba693a53d7c7dd1632c93c94ab56280"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261122_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_B_20261122_500m_original.csv",
+    "source_sha256": "94c66f73f32d19bf21aede4359195d68df4e5e65034a0a6673d7d336141f3c28",
+    "release_sha256": "94c66f73f32d19bf21aede4359195d68df4e5e65034a0a6673d7d336141f3c28"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_100m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_100m_xy_half.csv",
+    "source_sha256": "abfb760d2b875fee803fb99dd67828698ad1e601952c96748896f0187995578c",
+    "release_sha256": "abfb760d2b875fee803fb99dd67828698ad1e601952c96748896f0187995578c"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_100m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_100m_x_half.csv",
+    "source_sha256": "1a2424471b8e1d13e7a1a9780160b34865a642b5e9f3117a561c6622d0e70e61",
+    "release_sha256": "1a2424471b8e1d13e7a1a9780160b34865a642b5e9f3117a561c6622d0e70e61"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_100m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_100m_y_half.csv",
+    "source_sha256": "30ac446d26498c9a03b382b56aa048889737e8f60accf757cbf6eb62cc22e06c",
+    "release_sha256": "30ac446d26498c9a03b382b56aa048889737e8f60accf757cbf6eb62cc22e06c"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_250m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_250m_xy_half.csv",
+    "source_sha256": "a55c953e33b5755356c36b39a441fdfc2abe80464e95d131550cefa57bcf57d3",
+    "release_sha256": "a55c953e33b5755356c36b39a441fdfc2abe80464e95d131550cefa57bcf57d3"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_250m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_250m_x_half.csv",
+    "source_sha256": "4a0f90892aa10d8a73323a0dcbd8571a64e21fe834a5f61a90ce8f817f37768d",
+    "release_sha256": "4a0f90892aa10d8a73323a0dcbd8571a64e21fe834a5f61a90ce8f817f37768d"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_250m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_250m_y_half.csv",
+    "source_sha256": "43e245432a65433036ba3f8c4835253a121cdb9118a47809939ce8da5d7bf33a",
+    "release_sha256": "43e245432a65433036ba3f8c4835253a121cdb9118a47809939ce8da5d7bf33a"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_500m_xy_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_500m_xy_half.csv",
+    "source_sha256": "c3d08488c6ce13dfa85fba06e342a1bf6bcda8515195906bdec428bfe9e357a7",
+    "release_sha256": "c3d08488c6ce13dfa85fba06e342a1bf6bcda8515195906bdec428bfe9e357a7"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_500m_x_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_500m_x_half.csv",
+    "source_sha256": "33c9eb3b5eed86dd0261f4eb75f781bd9e347643467fadce63500d2856c64078",
+    "release_sha256": "33c9eb3b5eed86dd0261f4eb75f781bd9e347643467fadce63500d2856c64078"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_500m_y_half.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261115_500m_y_half.csv",
+    "source_sha256": "5380705882c6955dd7b5d711f1238cefe0dfcec418f445fb723bc80e3c82d4ce",
+    "release_sha256": "5380705882c6955dd7b5d711f1238cefe0dfcec418f445fb723bc80e3c82d4ce"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261121_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261121_100m_original.csv",
+    "source_sha256": "0bc1fcab3dfb19d1b6101f1e0575123e96a11306bfb4b6238e33637e37d205ca",
+    "release_sha256": "0bc1fcab3dfb19d1b6101f1e0575123e96a11306bfb4b6238e33637e37d205ca"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261121_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261121_250m_original.csv",
+    "source_sha256": "244f027fd331c446082694a7ac6bd3c48b04cf799f0e4ff452937aa3aa62e0b2",
+    "release_sha256": "244f027fd331c446082694a7ac6bd3c48b04cf799f0e4ff452937aa3aa62e0b2"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261121_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261121_500m_original.csv",
+    "source_sha256": "7b7b28375d7273fdc322565802f90f19ab807d8701ff906613a895398a00a7c7",
+    "release_sha256": "7b7b28375d7273fdc322565802f90f19ab807d8701ff906613a895398a00a7c7"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261122_100m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261122_100m_original.csv",
+    "source_sha256": "ed1bdbe0903c0be92ca61da8c940b1a04148ebfbaca8c3b6d112522988157f69",
+    "release_sha256": "ed1bdbe0903c0be92ca61da8c940b1a04148ebfbaca8c3b6d112522988157f69"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261122_250m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261122_250m_original.csv",
+    "source_sha256": "ff84796e23704a0bda005fb93f25b73bfc7728fccfca00345e21bd5c6b22d636",
+    "release_sha256": "ff84796e23704a0bda005fb93f25b73bfc7728fccfca00345e21bd5c6b22d636"
+  },
+  {
+    "source": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261122_500m_original.csv",
+    "destination": "results/P5_01/tables/cells/AOI_5_Khartoum_D_20261122_500m_original.csv",
+    "source_sha256": "f237ebf14462bbf9883e72db11e9c1dd5c1eea31bc559f0e6f676f5323bc23f8",
+    "release_sha256": "f237ebf14462bbf9883e72db11e9c1dd5c1eea31bc559f0e6f676f5323bc23f8"
+  },
+  {
+    "source": "results/P5_01/figures/F1_GIS_source.csv",
+    "destination": "results/P5_01/figures/F1_GIS_source.csv",
+    "source_sha256": "a81caee59aa8e46aa3e934915d018175daa51adf54775e9d1a50463220902387",
+    "release_sha256": "a81caee59aa8e46aa3e934915d018175daa51adf54775e9d1a50463220902387"
+  },
+  {
+    "source": "results/P5_01/figures/F1_source.csv",
+    "destination": "results/P5_01/figures/F1_source.csv",
+    "source_sha256": "6e113ef0cabfca86e07d6b4a086015606197a4f590dd8536370387f35b5d3932",
+    "release_sha256": "6e113ef0cabfca86e07d6b4a086015606197a4f590dd8536370387f35b5d3932"
+  },
+  {
+    "source": "results/P5_01/figures/F2_source.csv",
+    "destination": "results/P5_01/figures/F2_source.csv",
+    "source_sha256": "6e2c3a5ce4994c66827ad4f3b9d72211be68b5d5a0b50bc21af86107690e2c23",
+    "release_sha256": "6e2c3a5ce4994c66827ad4f3b9d72211be68b5d5a0b50bc21af86107690e2c23"
+  },
+  {
+    "source": "results/P5_01/figures/F3_source.csv",
+    "destination": "results/P5_01/figures/F3_source.csv",
+    "source_sha256": "69ede0a8ab8f058bc4de77088568c086256094d7e323511c9aa8435c8b0011c0",
+    "release_sha256": "69ede0a8ab8f058bc4de77088568c086256094d7e323511c9aa8435c8b0011c0"
+  },
+  {
+    "source": "results/P5_01/figures/F4_source.csv",
+    "destination": "results/P5_01/figures/F4_source.csv",
+    "source_sha256": "213b8ab89f9732055fff232899d2925f81cb5fe30faab542d94bd35bb5d4280f",
+    "release_sha256": "213b8ab89f9732055fff232899d2925f81cb5fe30faab542d94bd35bb5d4280f"
+  },
+  {
+    "source": "results/P5_01/figures/F5_case_source.csv",
+    "destination": "results/P5_01/figures/F5_case_source.csv",
+    "source_sha256": "042190eaf0ffc3b836895bc2bbee739860bdcf966f716eddf29755a21e2c8b6d",
+    "release_sha256": "042190eaf0ffc3b836895bc2bbee739860bdcf966f716eddf29755a21e2c8b6d"
+  },
+  {
+    "source": "results/P5_02/tables/architecture_cross_city_degradation.csv",
+    "destination": "results/P5_02/tables/architecture_cross_city_degradation.csv",
+    "source_sha256": "8999523c5831334a91e256d7f7dfefe2746d0fa7d504a7b10a08d2269d8c46dc",
+    "release_sha256": "8999523c5831334a91e256d7f7dfefe2746d0fa7d504a7b10a08d2269d8c46dc"
+  },
+  {
+    "source": "results/P5_02/tables/architecture_efficiency_comparison.csv",
+    "destination": "results/P5_02/tables/architecture_efficiency_comparison.csv",
+    "source_sha256": "cb38b9306d29aedefe257c94afda0254ad24335d995c64d9648c00bd282758c2",
+    "release_sha256": "cb38b9306d29aedefe257c94afda0254ad24335d995c64d9648c00bd282758c2"
+  },
+  {
+    "source": "results/P5_02/tables/architecture_paired_route_metrics.csv",
+    "destination": "results/P5_02/tables/architecture_paired_route_metrics.csv",
+    "source_sha256": "d08b65ce024a3fc69907f675540c74c3d7b0f7142000bac10bded20c9184e715",
+    "release_sha256": "d08b65ce024a3fc69907f675540c74c3d7b0f7142000bac10bded20c9184e715"
+  },
+  {
+    "source": "results/P5_02/tables/architecture_route_paired_differences.csv",
+    "destination": "results/P5_02/tables/architecture_route_paired_differences.csv",
+    "source_sha256": "bbd5b97f544ebef7a293e2ea3281bc8f2f750a78a9ea76f70d866f34cbfbf1ba",
+    "release_sha256": "bbd5b97f544ebef7a293e2ea3281bc8f2f750a78a9ea76f70d866f34cbfbf1ba"
+  },
+  {
+    "source": "results/P5_02/tables/architecture_seed_variability.csv",
+    "destination": "results/P5_02/tables/architecture_seed_variability.csv",
+    "source_sha256": "06ac6d953f2ce48740cb505bd49aa20983ac419f7fbc50b079e58e179fae84e4",
+    "release_sha256": "06ac6d953f2ce48740cb505bd49aa20983ac419f7fbc50b079e58e179fae84e4"
+  },
+  {
+    "source": "results/P5_02/tables/deeplabv3plus_12routes_metrics.csv",
+    "destination": "results/P5_02/tables/deeplabv3plus_12routes_metrics.csv",
+    "source_sha256": "b3b87784c9584069a96fe5225efcf212781ad2ba600c22434bdd98752cc24074",
+    "release_sha256": "b3b87784c9584069a96fe5225efcf212781ad2ba600c22434bdd98752cc24074"
+  },
+  {
+    "source": "results/P5_02/tables/deeplabv3plus_per_scene_ledger.csv",
+    "destination": "results/P5_02/tables/deeplabv3plus_per_scene_ledger.csv",
+    "source_sha256": "6c801b5144664a637048407ca5881d0b94ea9a0093971a6a43c5d86db812a7f4",
+    "release_sha256": "6c801b5144664a637048407ca5881d0b94ea9a0093971a6a43c5d86db812a7f4"
+  },
+  {
+    "source": "results/P5_02/tables/img1028_100m_same_cell_comparison.csv",
+    "destination": "results/P5_02/tables/img1028_100m_same_cell_comparison.csv",
+    "source_sha256": "6d3998115bde41d644f973a4eaeb8e74206f1dc5ee5a57a47fea772650481b57",
+    "release_sha256": "6d3998115bde41d644f973a4eaeb8e74206f1dc5ee5a57a47fea772650481b57"
+  },
+  {
+    "source": "results/P5_02/tables/img1028_scene_comparison.csv",
+    "destination": "results/P5_02/tables/img1028_scene_comparison.csv",
+    "source_sha256": "54f64009b0483d9123af869062fb47dcfb455cf77d380cfbf58516d1d50028f0",
+    "release_sha256": "54f64009b0483d9123af869062fb47dcfb455cf77d380cfbf58516d1d50028f0"
+  },
+  {
+    "source": "results/P5_02/tables/multiscale_27_scenarios.csv",
+    "destination": "results/P5_02/tables/multiscale_27_scenarios.csv",
+    "source_sha256": "c30e6a0a28a8d381ed7fa546e58216add502d36c22b138fcfe9da581cb678113",
+    "release_sha256": "c30e6a0a28a8d381ed7fa546e58216add502d36c22b138fcfe9da581cb678113"
+  },
+  {
+    "source": "results/P5_02/tables/multiscale_main_scenario.csv",
+    "destination": "results/P5_02/tables/multiscale_main_scenario.csv",
+    "source_sha256": "979e66c437031331a19c355eb925cec4246e07739a0b9723018b485d00d3a826",
+    "release_sha256": "979e66c437031331a19c355eb925cec4246e07739a0b9723018b485d00d3a826"
+  },
+  {
+    "source": "results/P5_02/tables/multiscale_spatial_summaries.csv",
+    "destination": "results/P5_02/tables/multiscale_spatial_summaries.csv",
+    "source_sha256": "310d98434ce81bff55a53a182dc11aa3327211d8a8d0c3ff06fd45f9d17e37c4",
+    "release_sha256": "310d98434ce81bff55a53a182dc11aa3327211d8a8d0c3ff06fd45f9d17e37c4"
+  },
+  {
+    "source": "results/P5_02/tables/net_pass_spatial_error_budgets_27.csv",
+    "destination": "results/P5_02/tables/net_pass_spatial_error_budgets_27.csv",
+    "source_sha256": "5b74f93c32770eaef4969963055c4ced509836118860abc5cb562a608393b50d",
+    "release_sha256": "5b74f93c32770eaef4969963055c4ced509836118860abc5cb562a608393b50d"
+  },
+  {
+    "source": "results/P5_02/tables/net_pass_spatial_error_budgets_main.csv",
+    "destination": "results/P5_02/tables/net_pass_spatial_error_budgets_main.csv",
+    "source_sha256": "828fce3d1cf49c09bb71ed77d8e557bebe114080861bb216423273c817d4a0c1",
+    "release_sha256": "828fce3d1cf49c09bb71ed77d8e557bebe114080861bb216423273c817d4a0c1"
+  },
+  {
+    "source": "results/P5_02/tables/paired_grid_architecture_comparison.csv",
+    "destination": "results/P5_02/tables/paired_grid_architecture_comparison.csv",
+    "source_sha256": "60c23118b6d5f06810c858eec00662ba942f1ca09abebf609d52687991891c6f",
+    "release_sha256": "60c23118b6d5f06810c858eec00662ba942f1ca09abebf609d52687991891c6f"
+  },
+  {
+    "source": "results/P5_02/tables/paired_grid_diagnosis_transitions.csv",
+    "destination": "results/P5_02/tables/paired_grid_diagnosis_transitions.csv",
+    "source_sha256": "48125d8d1aa6edf1ed2bec9840c1a35c3972cc3102203e52286ea6cda038f17b",
+    "release_sha256": "48125d8d1aa6edf1ed2bec9840c1a35c3972cc3102203e52286ea6cda038f17b"
+  },
+  {
+    "source": "results/P5_02/tables/route_inference_timings.csv",
+    "destination": "results/P5_02/tables/route_inference_timings.csv",
+    "source_sha256": "ad1f3a59d9f4f813f92e846ad7ba8de1711c7f4f6237e24adba6960751394f51",
+    "release_sha256": "ad1f3a59d9f4f813f92e846ad7ba8de1711c7f4f6237e24adba6960751394f51"
+  },
+  {
+    "source": "results/P5_02/tables/training_completion.csv",
+    "destination": "results/P5_02/tables/training_completion.csv",
+    "source_sha256": "7251ac692a0671645311fd9cd721d3093f180cbdc4d0bb7b3c15c6c603034422",
+    "release_sha256": "7251ac692a0671645311fd9cd721d3093f180cbdc4d0bb7b3c15c6c603034422"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261115_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261115_100m_original.csv",
+    "source_sha256": "733e535c8d894e58106293974eb3e8de555cfb3f9767d39ca7b165906a24f3ab",
+    "release_sha256": "733e535c8d894e58106293974eb3e8de555cfb3f9767d39ca7b165906a24f3ab"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261115_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261115_250m_original.csv",
+    "source_sha256": "c77eea5fa265a734a10ac278f3d68fb4ac398edcf817f30772020df9fc41db0f",
+    "release_sha256": "c77eea5fa265a734a10ac278f3d68fb4ac398edcf817f30772020df9fc41db0f"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261115_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261115_500m_original.csv",
+    "source_sha256": "f59487ca76fe54ec6f4c1d1a4d5f040f2269a315ae48e2e70c0e8578237fb53f",
+    "release_sha256": "f59487ca76fe54ec6f4c1d1a4d5f040f2269a315ae48e2e70c0e8578237fb53f"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261121_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261121_100m_original.csv",
+    "source_sha256": "1c6c2f2c1a8c15240b8c9674f17738d9fd4ffe3c2a69af862fb71ad21585f59b",
+    "release_sha256": "1c6c2f2c1a8c15240b8c9674f17738d9fd4ffe3c2a69af862fb71ad21585f59b"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261121_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261121_250m_original.csv",
+    "source_sha256": "9bed1489992c98101ca47e918b5480b083b7f31e07d994a850573f219812ec45",
+    "release_sha256": "9bed1489992c98101ca47e918b5480b083b7f31e07d994a850573f219812ec45"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261121_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261121_500m_original.csv",
+    "source_sha256": "46c8769481aa37657c47bcddfad124986b08c7e1650ddb779d51ba210c75a6f9",
+    "release_sha256": "46c8769481aa37657c47bcddfad124986b08c7e1650ddb779d51ba210c75a6f9"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261122_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261122_100m_original.csv",
+    "source_sha256": "2e66a7f1eee9ed3cd7ba369ccac43b88b46cc9095ff2e8388ab3b9e70ff8bf20",
+    "release_sha256": "2e66a7f1eee9ed3cd7ba369ccac43b88b46cc9095ff2e8388ab3b9e70ff8bf20"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261122_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261122_250m_original.csv",
+    "source_sha256": "65179df105052a50b1d3b9739693c787994d0f07cd6f2def0482aeb4312f95d0",
+    "release_sha256": "65179df105052a50b1d3b9739693c787994d0f07cd6f2def0482aeb4312f95d0"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_A_20261122_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_A_20261122_500m_original.csv",
+    "source_sha256": "9f862c67b93e001789a36e841f23dc5d54f35ed962ccd6ed6475d35dc8316f7b",
+    "release_sha256": "9f862c67b93e001789a36e841f23dc5d54f35ed962ccd6ed6475d35dc8316f7b"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261115_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261115_100m_original.csv",
+    "source_sha256": "13955d040199bf7d292aae14b692825e6954beeb7a376a5238e452137afecf9e",
+    "release_sha256": "13955d040199bf7d292aae14b692825e6954beeb7a376a5238e452137afecf9e"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261115_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261115_250m_original.csv",
+    "source_sha256": "42c772b98d2f2f60b60ce59355263ad44c910166e16a9e2d463084946a70a4be",
+    "release_sha256": "42c772b98d2f2f60b60ce59355263ad44c910166e16a9e2d463084946a70a4be"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261115_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261115_500m_original.csv",
+    "source_sha256": "6c357f64514d22e880201b25c848b9856d5ed366b42e4ab4c27a3efa7298380a",
+    "release_sha256": "6c357f64514d22e880201b25c848b9856d5ed366b42e4ab4c27a3efa7298380a"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261121_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261121_100m_original.csv",
+    "source_sha256": "442107d009f62b83f0cfede35fd59fcff04f1c7dea7e46f734091b9e2910687a",
+    "release_sha256": "442107d009f62b83f0cfede35fd59fcff04f1c7dea7e46f734091b9e2910687a"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261121_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261121_250m_original.csv",
+    "source_sha256": "5345498a46a9f433ba4a97041dd9d94a668fd17044f2924c58827a44b1ba7149",
+    "release_sha256": "5345498a46a9f433ba4a97041dd9d94a668fd17044f2924c58827a44b1ba7149"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261121_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261121_500m_original.csv",
+    "source_sha256": "d758d04a7b35f0c2d953eaf4a83a494c62a3bb940aa1f0be1fc07334342637a5",
+    "release_sha256": "d758d04a7b35f0c2d953eaf4a83a494c62a3bb940aa1f0be1fc07334342637a5"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261122_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261122_100m_original.csv",
+    "source_sha256": "18483eb580dd608118bc5b3f0b7598b76840c7a6186cc422daa0a865e02de321",
+    "release_sha256": "18483eb580dd608118bc5b3f0b7598b76840c7a6186cc422daa0a865e02de321"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261122_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261122_250m_original.csv",
+    "source_sha256": "1f59eef207a45571e2bc9bcbc3b6faa83e0797fbb45b7a5ef9c466f9c61aaae5",
+    "release_sha256": "1f59eef207a45571e2bc9bcbc3b6faa83e0797fbb45b7a5ef9c466f9c61aaae5"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_3_Paris_C_20261122_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_3_Paris_C_20261122_500m_original.csv",
+    "source_sha256": "7414b9a2635747cee7ae70ba5be37c4eaed7a60db8a247d9f7bd81b8eafc176d",
+    "release_sha256": "7414b9a2635747cee7ae70ba5be37c4eaed7a60db8a247d9f7bd81b8eafc176d"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261115_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261115_100m_original.csv",
+    "source_sha256": "8f6b71c9a36b9b1497cf73891043c6a5e7f15d02e582851fb8d2e2d258031050",
+    "release_sha256": "8f6b71c9a36b9b1497cf73891043c6a5e7f15d02e582851fb8d2e2d258031050"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261115_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261115_250m_original.csv",
+    "source_sha256": "f1d12400742b81c43b732bb570712de3cc379b28a3c755d7ac4fd91b99c06f2a",
+    "release_sha256": "f1d12400742b81c43b732bb570712de3cc379b28a3c755d7ac4fd91b99c06f2a"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261115_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261115_500m_original.csv",
+    "source_sha256": "942caff8836799794b9a7d40cdf906144a7fda3bb6e0f8b2f82736fc53d9b37e",
+    "release_sha256": "942caff8836799794b9a7d40cdf906144a7fda3bb6e0f8b2f82736fc53d9b37e"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261121_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261121_100m_original.csv",
+    "source_sha256": "797fb33db30f1e9b22fd1a6b590558ad371a8de114ea8711ec09dff8b1f70a7c",
+    "release_sha256": "797fb33db30f1e9b22fd1a6b590558ad371a8de114ea8711ec09dff8b1f70a7c"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261121_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261121_250m_original.csv",
+    "source_sha256": "251ba0390cb7f2129794ebd76c5e6dd5c88ca0f9889c5bd64e8cb0544408e8df",
+    "release_sha256": "251ba0390cb7f2129794ebd76c5e6dd5c88ca0f9889c5bd64e8cb0544408e8df"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261121_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261121_500m_original.csv",
+    "source_sha256": "819e1c70d012c388273cd05b05f117167947217d33df9d3ce66552eec3e189ae",
+    "release_sha256": "819e1c70d012c388273cd05b05f117167947217d33df9d3ce66552eec3e189ae"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261122_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261122_100m_original.csv",
+    "source_sha256": "3f7891549d1dfdbfbfea64520c3ccc7e8eb5c5095132f75387165fa3a844d5e4",
+    "release_sha256": "3f7891549d1dfdbfbfea64520c3ccc7e8eb5c5095132f75387165fa3a844d5e4"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261122_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261122_250m_original.csv",
+    "source_sha256": "5999eaae160dd1ec303bdf35488bb46db34ea3d20a7974bde8bbf03df9b1dea8",
+    "release_sha256": "5999eaae160dd1ec303bdf35488bb46db34ea3d20a7974bde8bbf03df9b1dea8"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261122_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_B_20261122_500m_original.csv",
+    "source_sha256": "94be0653a45058936533d16e5b3a9772afd88b1083afffc29c49199d9d6c8444",
+    "release_sha256": "94be0653a45058936533d16e5b3a9772afd88b1083afffc29c49199d9d6c8444"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261115_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261115_100m_original.csv",
+    "source_sha256": "5d07e1c476ed6804950d8e5af1b9dd5d7107d6a65d6eb5d426bdfc6f007b9b55",
+    "release_sha256": "5d07e1c476ed6804950d8e5af1b9dd5d7107d6a65d6eb5d426bdfc6f007b9b55"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261115_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261115_250m_original.csv",
+    "source_sha256": "b5b770f9e63eee2ce39d2aa52aec383cfac6d1dfacebacbebae4b2c44005bf2b",
+    "release_sha256": "b5b770f9e63eee2ce39d2aa52aec383cfac6d1dfacebacbebae4b2c44005bf2b"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261115_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261115_500m_original.csv",
+    "source_sha256": "be00d91fd360666c40d164b289b59b11b5adc271d392f41a95b2dc146473efea",
+    "release_sha256": "be00d91fd360666c40d164b289b59b11b5adc271d392f41a95b2dc146473efea"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261121_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261121_100m_original.csv",
+    "source_sha256": "ec4567d69c9734e21f90d2bbe01e8970bf91505f03e006326fe31aa5f8db3336",
+    "release_sha256": "ec4567d69c9734e21f90d2bbe01e8970bf91505f03e006326fe31aa5f8db3336"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261121_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261121_250m_original.csv",
+    "source_sha256": "e50202ff76a3ee162fc9e3223c94339a8f980fbf7e9c94ad1d92e7213d9ef723",
+    "release_sha256": "e50202ff76a3ee162fc9e3223c94339a8f980fbf7e9c94ad1d92e7213d9ef723"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261121_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261121_500m_original.csv",
+    "source_sha256": "9b6d632f207f300437b73a29586e9c9fd1d2a0a3f07d77842e426ee40e73fd06",
+    "release_sha256": "9b6d632f207f300437b73a29586e9c9fd1d2a0a3f07d77842e426ee40e73fd06"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261122_100m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261122_100m_original.csv",
+    "source_sha256": "b8978b2de91fd14cf2e1587ee2d18322eb810a64a9b58c3217bd9aab6f136e36",
+    "release_sha256": "b8978b2de91fd14cf2e1587ee2d18322eb810a64a9b58c3217bd9aab6f136e36"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261122_250m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261122_250m_original.csv",
+    "source_sha256": "4ca446296c91f167e3075da299556442daa83424ca41211431f3db0f96d46b96",
+    "release_sha256": "4ca446296c91f167e3075da299556442daa83424ca41211431f3db0f96d46b96"
+  },
+  {
+    "source": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261122_500m_original.csv",
+    "destination": "results/P5_02/tables/cells/AOI_5_Khartoum_D_20261122_500m_original.csv",
+    "source_sha256": "63a3c773b18c2295279bdf8a77b25420e4ae081b509e11ad7f40014d5c4b808b",
+    "release_sha256": "63a3c773b18c2295279bdf8a77b25420e4ae081b509e11ad7f40014d5c4b808b"
+  },
+  {
+    "source": "results/P5_02/figures/F1_source.csv",
+    "destination": "results/P5_02/figures/F1_source.csv",
+    "source_sha256": "44f1fb60cc5814528acf728f4af54ed7b2106b5e6ed62cc2053b09c4bb1450fe",
+    "release_sha256": "44f1fb60cc5814528acf728f4af54ed7b2106b5e6ed62cc2053b09c4bb1450fe"
+  },
+  {
+    "source": "results/P5_02/figures/F2_source.csv",
+    "destination": "results/P5_02/figures/F2_source.csv",
+    "source_sha256": "04bb8d75acc2fb7522e5db4fb841f0660081b799890890bcd9c25218e2698c83",
+    "release_sha256": "04bb8d75acc2fb7522e5db4fb841f0660081b799890890bcd9c25218e2698c83"
+  },
+  {
+    "source": "results/P5_02/figures/F3_source.csv",
+    "destination": "results/P5_02/figures/F3_source.csv",
+    "source_sha256": "d1a2b8ab1140b3055f8f575bacb47e67c887cd7498ea1e20b2d32c94fe2dc842",
+    "release_sha256": "d1a2b8ab1140b3055f8f575bacb47e67c887cd7498ea1e20b2d32c94fe2dc842"
+  },
+  {
+    "source": "results/P5_02/figures/F4_source.csv",
+    "destination": "results/P5_02/figures/F4_source.csv",
+    "source_sha256": "b20ade2b53fb478203479cc9994c14e7f5d09266a992a8953715852adeae9d8a",
+    "release_sha256": "b20ade2b53fb478203479cc9994c14e7f5d09266a992a8953715852adeae9d8a"
+  },
+  {
+    "source": "results/P5_02/figures/F5_source.csv",
+    "destination": "results/P5_02/figures/F5_source.csv",
+    "source_sha256": "939860a3cb05e8fc9e51b84d1b70b8b46ca38975d777ced1de5002d482df8851",
+    "release_sha256": "939860a3cb05e8fc9e51b84d1b70b8b46ca38975d777ced1de5002d482df8851"
+  },
+  {
+    "source": "results/P5_02/figures/F6_100m_cell_source.csv",
+    "destination": "results/P5_02/figures/F6_100m_cell_source.csv",
+    "source_sha256": "1c12d09992cfe6df42aa5b5e1d8048487227f716828acc25807e373105be5f9b",
+    "release_sha256": "1c12d09992cfe6df42aa5b5e1d8048487227f716828acc25807e373105be5f9b"
+  },
+  {
+    "source": "results/P5_02/figures/F6_scene_source.csv",
+    "destination": "results/P5_02/figures/F6_scene_source.csv",
+    "source_sha256": "19be5057415041fd8d97739e0c1554219f86023f3f57fb462182ec68ca54b86c",
+    "release_sha256": "19be5057415041fd8d97739e0c1554219f86023f3f57fb462182ec68ca54b86c"
+  },
+  {
+    "source": "results/P5_02/figures/F7_efficiency_source.csv",
+    "destination": "results/P5_02/figures/F7_efficiency_source.csv",
+    "source_sha256": "8b2087d50e4004ad015b4e2aadd579438c33e80f1630b74fb4466f53d4940912",
+    "release_sha256": "8b2087d50e4004ad015b4e2aadd579438c33e80f1630b74fb4466f53d4940912"
+  },
+  {
+    "source": "results/P5_03/tables/all_288_27_scenarios.csv",
+    "destination": "results/P5_03/tables/all_288_27_scenarios.csv",
+    "source_sha256": "e4b6cae511588c03819ec262b3b77fcb195e8ad95928938db6e0aebab1009ef7",
+    "release_sha256": "e4b6cae511588c03819ec262b3b77fcb195e8ad95928938db6e0aebab1009ef7"
+  },
+  {
+    "source": "results/P5_03/tables/all_288_error_budgets_27.csv",
+    "destination": "results/P5_03/tables/all_288_error_budgets_27.csv",
+    "source_sha256": "1bbf2592ef352fa250f356a2bd2ffada43cea1895ca38c4bbfc43c227df2fa79",
+    "release_sha256": "1bbf2592ef352fa250f356a2bd2ffada43cea1895ca38c4bbfc43c227df2fa79"
+  },
+  {
+    "source": "results/P5_03/tables/all_288_error_budgets_main.csv",
+    "destination": "results/P5_03/tables/all_288_error_budgets_main.csv",
+    "source_sha256": "a49dc32505540da2b6e2ae93a0a5118d23bf324ca551375cda1b124427af830a",
+    "release_sha256": "a49dc32505540da2b6e2ae93a0a5118d23bf324ca551375cda1b124427af830a"
+  },
+  {
+    "source": "results/P5_03/tables/all_288_main_scenario.csv",
+    "destination": "results/P5_03/tables/all_288_main_scenario.csv",
+    "source_sha256": "6a5fc2b1bd991727964d66f27e223284d4b127bfecd5d483d9b64c0a918d921c",
+    "release_sha256": "6a5fc2b1bd991727964d66f27e223284d4b127bfecd5d483d9b64c0a918d921c"
+  },
+  {
+    "source": "results/P5_03/tables/all_288_spatial_summaries.csv",
+    "destination": "results/P5_03/tables/all_288_spatial_summaries.csv",
+    "source_sha256": "fbb6f05a87904f97cf3c417d599467ddaf2f2425b9797aa6fdb98146e67eb41b",
+    "release_sha256": "fbb6f05a87904f97cf3c417d599467ddaf2f2425b9797aa6fdb98146e67eb41b"
+  },
+  {
+    "source": "results/P5_03/tables/diagnosis_stability_summary.csv",
+    "destination": "results/P5_03/tables/diagnosis_stability_summary.csv",
+    "source_sha256": "c76c0954b1026526b10f6c53a32bf2e3bf7eebbf5951f6bcdec9466419e5a9d5",
+    "release_sha256": "c76c0954b1026526b10f6c53a32bf2e3bf7eebbf5951f6bcdec9466419e5a9d5"
+  },
+  {
+    "source": "results/P5_03/tables/origin_sensitivity_ranges.csv",
+    "destination": "results/P5_03/tables/origin_sensitivity_ranges.csv",
+    "source_sha256": "e0bf628c14d73b381e48af4c0a632079434e7c9a9ca6dadbbdd6fb5b37fbb736",
+    "release_sha256": "e0bf628c14d73b381e48af4c0a632079434e7c9a9ca6dadbbdd6fb5b37fbb736"
+  },
+  {
+    "source": "results/P5_03/tables/zero_hidden_origin_stability.csv",
+    "destination": "results/P5_03/tables/zero_hidden_origin_stability.csv",
+    "source_sha256": "a58499a918620550910a7d24da84d46998568d1ce1008bdf7f97fd1ab5b240ae",
+    "release_sha256": "a58499a918620550910a7d24da84d46998568d1ce1008bdf7f97fd1ab5b240ae"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_100m_xy_half.csv",
+    "source_sha256": "04b8e698bb7c3691701f76d871578e8b023e5f864a4567294d2dbdd908db825c",
+    "release_sha256": "04b8e698bb7c3691701f76d871578e8b023e5f864a4567294d2dbdd908db825c"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_100m_x_half.csv",
+    "source_sha256": "6d5833349711deddc7b6e06899a80b3200c3c37db688c0dbcedf89749b316fb7",
+    "release_sha256": "6d5833349711deddc7b6e06899a80b3200c3c37db688c0dbcedf89749b316fb7"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_100m_y_half.csv",
+    "source_sha256": "440ab22e72ebf6d5135cad56ed67d7fa040be7195ebc2e5364889dbef24dfe8b",
+    "release_sha256": "440ab22e72ebf6d5135cad56ed67d7fa040be7195ebc2e5364889dbef24dfe8b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_250m_xy_half.csv",
+    "source_sha256": "84467e0f2abff0f80c3df6680bb24d7458ba51eaf9c4cbd06d113ddaf3b527c6",
+    "release_sha256": "84467e0f2abff0f80c3df6680bb24d7458ba51eaf9c4cbd06d113ddaf3b527c6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_250m_x_half.csv",
+    "source_sha256": "e8b4021d67324dbf2798b6dc4111cbfe2c8e9ac9862a0ff7a47fc725c3fe99fe",
+    "release_sha256": "e8b4021d67324dbf2798b6dc4111cbfe2c8e9ac9862a0ff7a47fc725c3fe99fe"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_250m_y_half.csv",
+    "source_sha256": "a112b921e28e2ef10a0ad0a0e516878a7517dec96a1937cef29ccfffbb5798a9",
+    "release_sha256": "a112b921e28e2ef10a0ad0a0e516878a7517dec96a1937cef29ccfffbb5798a9"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_500m_xy_half.csv",
+    "source_sha256": "2ce1fa8fcebd909acaeb14c8f3cf50ca8514025527921de262675d30b84704e8",
+    "release_sha256": "2ce1fa8fcebd909acaeb14c8f3cf50ca8514025527921de262675d30b84704e8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_500m_x_half.csv",
+    "source_sha256": "0e95b73cff2acac1975794cfb0389cb6fa7a4264216a78042796c4ff50adb90d",
+    "release_sha256": "0e95b73cff2acac1975794cfb0389cb6fa7a4264216a78042796c4ff50adb90d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261115_500m_y_half.csv",
+    "source_sha256": "8a9a77645d335cce0dc2dccc520246f4d8fb88a51217b06504c99de152b8cf64",
+    "release_sha256": "8a9a77645d335cce0dc2dccc520246f4d8fb88a51217b06504c99de152b8cf64"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_100m_xy_half.csv",
+    "source_sha256": "43eb2834f6c16d421ba32059b485d42eafc8e2ce55d6a3afd5ec3167f309099e",
+    "release_sha256": "43eb2834f6c16d421ba32059b485d42eafc8e2ce55d6a3afd5ec3167f309099e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_100m_x_half.csv",
+    "source_sha256": "ec588b04e0e96b46d45bf35cc9afd345df315a6399af1f465411d9b2af5d9ee4",
+    "release_sha256": "ec588b04e0e96b46d45bf35cc9afd345df315a6399af1f465411d9b2af5d9ee4"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_100m_y_half.csv",
+    "source_sha256": "8fd9fccb395ed3ce2e21698d81ac23c8d37ee7c30d0e98be3d83834ec55cf92c",
+    "release_sha256": "8fd9fccb395ed3ce2e21698d81ac23c8d37ee7c30d0e98be3d83834ec55cf92c"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_250m_xy_half.csv",
+    "source_sha256": "929e666a92954c2dcb8c2464751a0945085e6c65855c10b5e864c7b2f539592d",
+    "release_sha256": "929e666a92954c2dcb8c2464751a0945085e6c65855c10b5e864c7b2f539592d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_250m_x_half.csv",
+    "source_sha256": "983563e041cac9394293ec3fec4fbf5e1f0d65199bcf692a7fa79e45fc53e397",
+    "release_sha256": "983563e041cac9394293ec3fec4fbf5e1f0d65199bcf692a7fa79e45fc53e397"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_250m_y_half.csv",
+    "source_sha256": "27de8e356778f810c4b33ca5119cc83d7a84f5db5a697e8f1fd6833f079f3fc8",
+    "release_sha256": "27de8e356778f810c4b33ca5119cc83d7a84f5db5a697e8f1fd6833f079f3fc8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_500m_xy_half.csv",
+    "source_sha256": "488aaa068cf0f4c18d2c0bc9d837fcd57e3fc6b20f143cffa64ae6472f07b3ca",
+    "release_sha256": "488aaa068cf0f4c18d2c0bc9d837fcd57e3fc6b20f143cffa64ae6472f07b3ca"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_500m_x_half.csv",
+    "source_sha256": "6f5fe729be3f6422c4bd7d0042a90868008515a4d3a19599c955699a5ce05bc7",
+    "release_sha256": "6f5fe729be3f6422c4bd7d0042a90868008515a4d3a19599c955699a5ce05bc7"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261121_500m_y_half.csv",
+    "source_sha256": "9798cf2a18087d024a015471f7236495ed5cfb73b8c9983434130a110e67d6e5",
+    "release_sha256": "9798cf2a18087d024a015471f7236495ed5cfb73b8c9983434130a110e67d6e5"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_100m_xy_half.csv",
+    "source_sha256": "73a4ba6332005b34b8faecf953d2afd5e1ef4df26353fa46672bc2d79cb2e86a",
+    "release_sha256": "73a4ba6332005b34b8faecf953d2afd5e1ef4df26353fa46672bc2d79cb2e86a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_100m_x_half.csv",
+    "source_sha256": "ed493fccae771f14557edc101b077ec16368a77d5eb3664463eaf28a11557be4",
+    "release_sha256": "ed493fccae771f14557edc101b077ec16368a77d5eb3664463eaf28a11557be4"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_100m_y_half.csv",
+    "source_sha256": "cb9c6657b1c36b5e94f48205b3ca6e2f95da5bebffc2d1c60bc753ea1f66ed17",
+    "release_sha256": "cb9c6657b1c36b5e94f48205b3ca6e2f95da5bebffc2d1c60bc753ea1f66ed17"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_250m_xy_half.csv",
+    "source_sha256": "6e0136edf9ef73a873d8f46fa7c67cfa9c52def8b3d18eea55b6973084838215",
+    "release_sha256": "6e0136edf9ef73a873d8f46fa7c67cfa9c52def8b3d18eea55b6973084838215"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_250m_x_half.csv",
+    "source_sha256": "03d7f54596249b3209d97a8f62bd6bfed24dce32c1fe74f08d19718224f957b6",
+    "release_sha256": "03d7f54596249b3209d97a8f62bd6bfed24dce32c1fe74f08d19718224f957b6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_250m_y_half.csv",
+    "source_sha256": "8bfcb9128ecac1c42c229f414793b6b05d2b70652125ee020fe8b9b325f14d09",
+    "release_sha256": "8bfcb9128ecac1c42c229f414793b6b05d2b70652125ee020fe8b9b325f14d09"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_500m_xy_half.csv",
+    "source_sha256": "c6793b2f82ce50790780db3a366a0de7c36f6fa294bc24ed2b3b0919df92f233",
+    "release_sha256": "c6793b2f82ce50790780db3a366a0de7c36f6fa294bc24ed2b3b0919df92f233"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_500m_x_half.csv",
+    "source_sha256": "a55b1e3cea315437a231b114e9dd65d4d69c2e42da3f9df0a876f041598b6138",
+    "release_sha256": "a55b1e3cea315437a231b114e9dd65d4d69c2e42da3f9df0a876f041598b6138"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_A_20261122_500m_y_half.csv",
+    "source_sha256": "76cec99fc1884339b75d65c364d5fbf8a019690e66e2ef8757a394ea4450b481",
+    "release_sha256": "76cec99fc1884339b75d65c364d5fbf8a019690e66e2ef8757a394ea4450b481"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_100m_xy_half.csv",
+    "source_sha256": "fb115da3ce2fa9d4c35b685e2d541a33975e6270139c761a09b7e6f6c7efe13c",
+    "release_sha256": "fb115da3ce2fa9d4c35b685e2d541a33975e6270139c761a09b7e6f6c7efe13c"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_100m_x_half.csv",
+    "source_sha256": "4cc81b958a5d93faaef00ab0ef7fd655407c5c35c3c442b02088068fbae4233a",
+    "release_sha256": "4cc81b958a5d93faaef00ab0ef7fd655407c5c35c3c442b02088068fbae4233a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_100m_y_half.csv",
+    "source_sha256": "4f24df35849c34f8d9b17a0e414508de836166ef42002b9a49db8c274820e614",
+    "release_sha256": "4f24df35849c34f8d9b17a0e414508de836166ef42002b9a49db8c274820e614"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_250m_xy_half.csv",
+    "source_sha256": "424a7b4d3bf5b71d4491c01d41433b2192871bf06f6b0e7f88a58af3a6fac676",
+    "release_sha256": "424a7b4d3bf5b71d4491c01d41433b2192871bf06f6b0e7f88a58af3a6fac676"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_250m_x_half.csv",
+    "source_sha256": "94eb37cdc06b9f91cb687b2c9dbe0d77a5ccfd46be4861a2859c37365851c9e7",
+    "release_sha256": "94eb37cdc06b9f91cb687b2c9dbe0d77a5ccfd46be4861a2859c37365851c9e7"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_250m_y_half.csv",
+    "source_sha256": "1b017ef388eb35009f24098e5c45ed0bf7d26c95acc726b55e035ec48d54eaad",
+    "release_sha256": "1b017ef388eb35009f24098e5c45ed0bf7d26c95acc726b55e035ec48d54eaad"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_500m_xy_half.csv",
+    "source_sha256": "950d855b5643d46d9e3e6528e3d227e8d32691fbfc92ad06e0d784273acee014",
+    "release_sha256": "950d855b5643d46d9e3e6528e3d227e8d32691fbfc92ad06e0d784273acee014"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_500m_x_half.csv",
+    "source_sha256": "bdac9400e8491df54269cfe4701123d80cf019a0df1139bd46680cdce96f1fca",
+    "release_sha256": "bdac9400e8491df54269cfe4701123d80cf019a0df1139bd46680cdce96f1fca"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261115_500m_y_half.csv",
+    "source_sha256": "81956d3a67edf824a35d0ca89ff799e5db9c8c327a421f82eec77b9b7908c434",
+    "release_sha256": "81956d3a67edf824a35d0ca89ff799e5db9c8c327a421f82eec77b9b7908c434"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_100m_xy_half.csv",
+    "source_sha256": "5533ccd8d584112828e609466215023628b978a9c4e1af672f0acced25e0d622",
+    "release_sha256": "5533ccd8d584112828e609466215023628b978a9c4e1af672f0acced25e0d622"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_100m_x_half.csv",
+    "source_sha256": "7f64ca999e233bfdbc246c0a43514337b5de26ccf2457e0eddef9dbf06004c75",
+    "release_sha256": "7f64ca999e233bfdbc246c0a43514337b5de26ccf2457e0eddef9dbf06004c75"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_100m_y_half.csv",
+    "source_sha256": "facce41a1a237f7ffcc72bd8dbc5c1cf8a39346d0249ebd31745012d39f34bca",
+    "release_sha256": "facce41a1a237f7ffcc72bd8dbc5c1cf8a39346d0249ebd31745012d39f34bca"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_250m_xy_half.csv",
+    "source_sha256": "51efb03cfd993ecf171ab061e95880545b6f438d8fb0564cd6be5a8887df4db6",
+    "release_sha256": "51efb03cfd993ecf171ab061e95880545b6f438d8fb0564cd6be5a8887df4db6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_250m_x_half.csv",
+    "source_sha256": "156775ee7fb35094fa9da632193f5955257f10525ecf40994a8a37207879835d",
+    "release_sha256": "156775ee7fb35094fa9da632193f5955257f10525ecf40994a8a37207879835d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_250m_y_half.csv",
+    "source_sha256": "6e5e9283bdbcc89072e3eb88f9285aadfdf1f8a770325311ed64ca9e10b594e6",
+    "release_sha256": "6e5e9283bdbcc89072e3eb88f9285aadfdf1f8a770325311ed64ca9e10b594e6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_500m_xy_half.csv",
+    "source_sha256": "8e68865778e2a22693803d96f5d8b4d63eebed127840f6318ed8b373b6925ec3",
+    "release_sha256": "8e68865778e2a22693803d96f5d8b4d63eebed127840f6318ed8b373b6925ec3"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_500m_x_half.csv",
+    "source_sha256": "1be2bc4332bc17084bfd74e4f994524bbd6d49335ac38ed93900f8f87c180189",
+    "release_sha256": "1be2bc4332bc17084bfd74e4f994524bbd6d49335ac38ed93900f8f87c180189"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261121_500m_y_half.csv",
+    "source_sha256": "bd5b52cbd368f69d5d32a1d10e4a2089d050eac7d83eadbac133d0c241030fc9",
+    "release_sha256": "bd5b52cbd368f69d5d32a1d10e4a2089d050eac7d83eadbac133d0c241030fc9"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_100m_xy_half.csv",
+    "source_sha256": "ac139bf5d172edb471c5a8b71c860d75c47d3f02911b023e721720fbbd647ba9",
+    "release_sha256": "ac139bf5d172edb471c5a8b71c860d75c47d3f02911b023e721720fbbd647ba9"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_100m_x_half.csv",
+    "source_sha256": "1a4b680e48488ea409ca06c679e79579b8ec71c5abeff0400db6a730ca2bec5a",
+    "release_sha256": "1a4b680e48488ea409ca06c679e79579b8ec71c5abeff0400db6a730ca2bec5a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_100m_y_half.csv",
+    "source_sha256": "a8d5c0fa095fcd238db9963d02527d3c68c0890f5112c14a5200f2bbe09a826d",
+    "release_sha256": "a8d5c0fa095fcd238db9963d02527d3c68c0890f5112c14a5200f2bbe09a826d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_250m_xy_half.csv",
+    "source_sha256": "34c9e17006d5436a296acc8ef1833edf65d3ec59d307ccfae51c713f4bc11d29",
+    "release_sha256": "34c9e17006d5436a296acc8ef1833edf65d3ec59d307ccfae51c713f4bc11d29"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_250m_x_half.csv",
+    "source_sha256": "3d035d93dc7ca1c20d7ec002fd0e344958edcc306aa0b85f602ced6015fbc4d9",
+    "release_sha256": "3d035d93dc7ca1c20d7ec002fd0e344958edcc306aa0b85f602ced6015fbc4d9"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_250m_y_half.csv",
+    "source_sha256": "4b4de3b1de3e2937b38bc0dd75f311d252f82c5b5f59b79ab86b221ecbb66bb5",
+    "release_sha256": "4b4de3b1de3e2937b38bc0dd75f311d252f82c5b5f59b79ab86b221ecbb66bb5"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_500m_xy_half.csv",
+    "source_sha256": "d988be7a6cbdd400fbf7e10acb5f1d7a062df04a5f5c13ebd8a2c88e1cb3e25a",
+    "release_sha256": "d988be7a6cbdd400fbf7e10acb5f1d7a062df04a5f5c13ebd8a2c88e1cb3e25a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_500m_x_half.csv",
+    "source_sha256": "c95b73a6140cc9a54f336d321e6ccdc0087f89c778dfbf22972529d1059da63f",
+    "release_sha256": "c95b73a6140cc9a54f336d321e6ccdc0087f89c778dfbf22972529d1059da63f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_3_Paris_C_20261122_500m_y_half.csv",
+    "source_sha256": "af74cd6846d67edfd31b21d7a979f4268ccddf722c15e89280bd627afc3f58f6",
+    "release_sha256": "af74cd6846d67edfd31b21d7a979f4268ccddf722c15e89280bd627afc3f58f6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_100m_xy_half.csv",
+    "source_sha256": "083a3155df60588ce2a3d0da4ee2fd40cf5cbda9dacd8bc2c40671e2848077cc",
+    "release_sha256": "083a3155df60588ce2a3d0da4ee2fd40cf5cbda9dacd8bc2c40671e2848077cc"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_100m_x_half.csv",
+    "source_sha256": "14b4f718644cc7efd5b05336d4bd05df07409350b5912c3ee7632de04deb60a8",
+    "release_sha256": "14b4f718644cc7efd5b05336d4bd05df07409350b5912c3ee7632de04deb60a8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_100m_y_half.csv",
+    "source_sha256": "1b75fb8fd2ba572e6280ca0f28be39cae726c221caa05c73d7c1aa9d9934a1d9",
+    "release_sha256": "1b75fb8fd2ba572e6280ca0f28be39cae726c221caa05c73d7c1aa9d9934a1d9"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_250m_xy_half.csv",
+    "source_sha256": "1e3ecf10867f4235871d9c22f7de7aabc25949144b27435eac23402435dc3073",
+    "release_sha256": "1e3ecf10867f4235871d9c22f7de7aabc25949144b27435eac23402435dc3073"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_250m_x_half.csv",
+    "source_sha256": "2e4ac29d3110cd65dbc64af5bad86eb5fd47bcb354696147ea0663dd5398f7e8",
+    "release_sha256": "2e4ac29d3110cd65dbc64af5bad86eb5fd47bcb354696147ea0663dd5398f7e8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_250m_y_half.csv",
+    "source_sha256": "915b0a2cd3d94a3affc69c235fa4381f47588fb0b9171ff647485c7fe49a8aa4",
+    "release_sha256": "915b0a2cd3d94a3affc69c235fa4381f47588fb0b9171ff647485c7fe49a8aa4"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_500m_xy_half.csv",
+    "source_sha256": "82c65ed61444aff8a46981218bfcd5886af06e64de0b7233a561ec900b79f584",
+    "release_sha256": "82c65ed61444aff8a46981218bfcd5886af06e64de0b7233a561ec900b79f584"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_500m_x_half.csv",
+    "source_sha256": "4a8719ebe21c886fee96082685048d6829475391cdb14ec27cb5f69c817eeec1",
+    "release_sha256": "4a8719ebe21c886fee96082685048d6829475391cdb14ec27cb5f69c817eeec1"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261115_500m_y_half.csv",
+    "source_sha256": "9814e665a88e528c86cb2c0ccd361e33dba80e0f3c7740411ceea0db3bfaa01b",
+    "release_sha256": "9814e665a88e528c86cb2c0ccd361e33dba80e0f3c7740411ceea0db3bfaa01b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_100m_xy_half.csv",
+    "source_sha256": "e71950c77050d5724339bbb5be1d9a20e9c444987c0fa52069f80ff477292255",
+    "release_sha256": "e71950c77050d5724339bbb5be1d9a20e9c444987c0fa52069f80ff477292255"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_100m_x_half.csv",
+    "source_sha256": "d38dbc1a4118455faeee2a912eaca55c1a8c3e97d954625bd674de95a7a5b1d0",
+    "release_sha256": "d38dbc1a4118455faeee2a912eaca55c1a8c3e97d954625bd674de95a7a5b1d0"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_100m_y_half.csv",
+    "source_sha256": "3a3929befc9d6d701561f4f98bfb910d9304f8b4ef90e4544132e654ace75ff7",
+    "release_sha256": "3a3929befc9d6d701561f4f98bfb910d9304f8b4ef90e4544132e654ace75ff7"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_250m_xy_half.csv",
+    "source_sha256": "ec34ef71cadb68348ea7928e94c8cca7e9250b72a1f1343315c769c9d319c066",
+    "release_sha256": "ec34ef71cadb68348ea7928e94c8cca7e9250b72a1f1343315c769c9d319c066"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_250m_x_half.csv",
+    "source_sha256": "d33443ea70478998d46c0c0f03305fc00fe03ba329463c041819dbe6269218f5",
+    "release_sha256": "d33443ea70478998d46c0c0f03305fc00fe03ba329463c041819dbe6269218f5"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_250m_y_half.csv",
+    "source_sha256": "d9278548532b3468634bf7002ce892d5829aff26ff502b71b2b04fd5c0e0336d",
+    "release_sha256": "d9278548532b3468634bf7002ce892d5829aff26ff502b71b2b04fd5c0e0336d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_500m_xy_half.csv",
+    "source_sha256": "c1c2a495aa9b3c297b7ad9444ce780278905b762eba489d7dad1b5f34326ec99",
+    "release_sha256": "c1c2a495aa9b3c297b7ad9444ce780278905b762eba489d7dad1b5f34326ec99"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_500m_x_half.csv",
+    "source_sha256": "bdca963f8090f6dd13e9d731c05860f2e3b1cafb6fba86f605f014cde29e4e93",
+    "release_sha256": "bdca963f8090f6dd13e9d731c05860f2e3b1cafb6fba86f605f014cde29e4e93"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261121_500m_y_half.csv",
+    "source_sha256": "5eab3cfd8ab059242e02646ddefeaa11fc397ca1e68dc48d3ece73702cfdb21a",
+    "release_sha256": "5eab3cfd8ab059242e02646ddefeaa11fc397ca1e68dc48d3ece73702cfdb21a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_100m_xy_half.csv",
+    "source_sha256": "1dc899c035e8a13c20429f663fb7cbd6b0dece656ab42072f76535a543fb6bc3",
+    "release_sha256": "1dc899c035e8a13c20429f663fb7cbd6b0dece656ab42072f76535a543fb6bc3"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_100m_x_half.csv",
+    "source_sha256": "bca73df37ba93c253596771eb521dccb1ae2ad0678f174b5096f1627e8608a4b",
+    "release_sha256": "bca73df37ba93c253596771eb521dccb1ae2ad0678f174b5096f1627e8608a4b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_100m_y_half.csv",
+    "source_sha256": "b1fcad42ac5b1bf675097ffa0641695324596eba7c56cd93ebe7c4609a7a7a1a",
+    "release_sha256": "b1fcad42ac5b1bf675097ffa0641695324596eba7c56cd93ebe7c4609a7a7a1a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_250m_xy_half.csv",
+    "source_sha256": "1a72423fa23d7e9d2970b537100fae84baf1706ac24ccc6e8f89637b6ca03bb8",
+    "release_sha256": "1a72423fa23d7e9d2970b537100fae84baf1706ac24ccc6e8f89637b6ca03bb8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_250m_x_half.csv",
+    "source_sha256": "5ae1377840111465ab8614e28fdd69d5700fa7d65d3c493cfb0b57c44e666de6",
+    "release_sha256": "5ae1377840111465ab8614e28fdd69d5700fa7d65d3c493cfb0b57c44e666de6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_250m_y_half.csv",
+    "source_sha256": "c5e64320ae88a3d786b1fc0cdac700ed4a58c375ce46f78b83346881961d9506",
+    "release_sha256": "c5e64320ae88a3d786b1fc0cdac700ed4a58c375ce46f78b83346881961d9506"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_500m_xy_half.csv",
+    "source_sha256": "7ff0821122083295850345bf2b7bb753d5a9fc0a1a363a13f1f4b64760830f42",
+    "release_sha256": "7ff0821122083295850345bf2b7bb753d5a9fc0a1a363a13f1f4b64760830f42"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_500m_x_half.csv",
+    "source_sha256": "12d096cd549c28dc529e77bb21968f6e4a0506a47ff3b8474146b64656d80c13",
+    "release_sha256": "12d096cd549c28dc529e77bb21968f6e4a0506a47ff3b8474146b64656d80c13"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_B_20261122_500m_y_half.csv",
+    "source_sha256": "b068a68ccb61607590c65374cb1f6f49fb9dd0e2bf6537ed09dde0420af3f3d9",
+    "release_sha256": "b068a68ccb61607590c65374cb1f6f49fb9dd0e2bf6537ed09dde0420af3f3d9"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_100m_xy_half.csv",
+    "source_sha256": "be81ec91577b362263764899cd0e2f878483c6d7950b2e87ce0919ee569c3d95",
+    "release_sha256": "be81ec91577b362263764899cd0e2f878483c6d7950b2e87ce0919ee569c3d95"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_100m_x_half.csv",
+    "source_sha256": "cfbb38e28a8787646f9b20fb2e6c8367fd775ca75e94be445549ad453de7a0b6",
+    "release_sha256": "cfbb38e28a8787646f9b20fb2e6c8367fd775ca75e94be445549ad453de7a0b6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_100m_y_half.csv",
+    "source_sha256": "384a349dca8d14ff2361c5fb4a7cee47acb3d0ded5c0467a45cc473b5cc4a4c9",
+    "release_sha256": "384a349dca8d14ff2361c5fb4a7cee47acb3d0ded5c0467a45cc473b5cc4a4c9"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_250m_xy_half.csv",
+    "source_sha256": "5e5850c82f431d8de2d9260beca5203f7b730b1081185b0f890edc1aeffc48f3",
+    "release_sha256": "5e5850c82f431d8de2d9260beca5203f7b730b1081185b0f890edc1aeffc48f3"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_250m_x_half.csv",
+    "source_sha256": "5cc6fa6127500b13f5152f5dd0973a975d9a0aad5a716ff6f8426e7f338349ef",
+    "release_sha256": "5cc6fa6127500b13f5152f5dd0973a975d9a0aad5a716ff6f8426e7f338349ef"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_250m_y_half.csv",
+    "source_sha256": "a9a75ac74b79aae66aedd74c947fd064d6ae3e85ef342c4eb2e09da2ebec74aa",
+    "release_sha256": "a9a75ac74b79aae66aedd74c947fd064d6ae3e85ef342c4eb2e09da2ebec74aa"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_500m_xy_half.csv",
+    "source_sha256": "8027cf34827fb272d0a0c5468d530dad591817236d37dbfd596a53bf31ad0e3e",
+    "release_sha256": "8027cf34827fb272d0a0c5468d530dad591817236d37dbfd596a53bf31ad0e3e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_500m_x_half.csv",
+    "source_sha256": "9137cdfb84a1c5d6f68b2d3472244e4e74c02b5489c6df6426f5bc120ac94c19",
+    "release_sha256": "9137cdfb84a1c5d6f68b2d3472244e4e74c02b5489c6df6426f5bc120ac94c19"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261115_500m_y_half.csv",
+    "source_sha256": "fa6e25d0eff96e8130af124a385c5b810a19ad96f53d00f06f201487f4214318",
+    "release_sha256": "fa6e25d0eff96e8130af124a385c5b810a19ad96f53d00f06f201487f4214318"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_100m_xy_half.csv",
+    "source_sha256": "13d030a311e73d240e73bc65eda746831f99867ba0fff6102970792b6000a405",
+    "release_sha256": "13d030a311e73d240e73bc65eda746831f99867ba0fff6102970792b6000a405"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_100m_x_half.csv",
+    "source_sha256": "55fe1d3c888596d11036d17c9626855271a46044985ea5d59c6e36274cdcfae8",
+    "release_sha256": "55fe1d3c888596d11036d17c9626855271a46044985ea5d59c6e36274cdcfae8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_100m_y_half.csv",
+    "source_sha256": "d15381cc3af8e80a2aef80f24ada8f3fb42963c1010e7ade1f41f50926361efa",
+    "release_sha256": "d15381cc3af8e80a2aef80f24ada8f3fb42963c1010e7ade1f41f50926361efa"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_250m_xy_half.csv",
+    "source_sha256": "eb19653effdb9f9774d605cc01b3af4b92e44fcce60c293d96d7479d4d83b5b6",
+    "release_sha256": "eb19653effdb9f9774d605cc01b3af4b92e44fcce60c293d96d7479d4d83b5b6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_250m_x_half.csv",
+    "source_sha256": "e8a007b67b69d25fe66b70025b54b6d34dc51239ced75b4248a537e37682d193",
+    "release_sha256": "e8a007b67b69d25fe66b70025b54b6d34dc51239ced75b4248a537e37682d193"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_250m_y_half.csv",
+    "source_sha256": "d9e93dd5fd485c02b9b80857660920d5ccc6ce38e077ca1856539fe33fd457a3",
+    "release_sha256": "d9e93dd5fd485c02b9b80857660920d5ccc6ce38e077ca1856539fe33fd457a3"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_500m_xy_half.csv",
+    "source_sha256": "c874e154b58bdfa21bb21d09978a2260f6113278663bad064259ff22b76eb3ad",
+    "release_sha256": "c874e154b58bdfa21bb21d09978a2260f6113278663bad064259ff22b76eb3ad"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_500m_x_half.csv",
+    "source_sha256": "2f76e78c23ba1975fba62a91c4bf8a00ef58c4287a827dfc7ac7b1659d72e561",
+    "release_sha256": "2f76e78c23ba1975fba62a91c4bf8a00ef58c4287a827dfc7ac7b1659d72e561"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261121_500m_y_half.csv",
+    "source_sha256": "acf7b9bf7c2b1cae4c224db31f933d35d5f9f5a979a369a3542fcffce682ee9b",
+    "release_sha256": "acf7b9bf7c2b1cae4c224db31f933d35d5f9f5a979a369a3542fcffce682ee9b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_100m_xy_half.csv",
+    "source_sha256": "6427e1e68df010af1bd0e7caf4c33c8b5d09908e9b0c5aecc3c9edf2195f3cdf",
+    "release_sha256": "6427e1e68df010af1bd0e7caf4c33c8b5d09908e9b0c5aecc3c9edf2195f3cdf"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_100m_x_half.csv",
+    "source_sha256": "e145872a932422a14d1f1432973a4fda974878b8eb4774bbb569783a484c27a7",
+    "release_sha256": "e145872a932422a14d1f1432973a4fda974878b8eb4774bbb569783a484c27a7"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_100m_y_half.csv",
+    "source_sha256": "7d4fe3ed4cc5c047e41ded1206fb6eec6b4f14f00bc744c97178e5ae6b011774",
+    "release_sha256": "7d4fe3ed4cc5c047e41ded1206fb6eec6b4f14f00bc744c97178e5ae6b011774"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_250m_xy_half.csv",
+    "source_sha256": "04b404785910eab902ef623df48a320cc384f0f453aebc2949f8a23eb4e16ad6",
+    "release_sha256": "04b404785910eab902ef623df48a320cc384f0f453aebc2949f8a23eb4e16ad6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_250m_x_half.csv",
+    "source_sha256": "87053dcd99551d4701aa312cc78b4e91ca504f1c9dd08daa114eb5bbb7f99cb8",
+    "release_sha256": "87053dcd99551d4701aa312cc78b4e91ca504f1c9dd08daa114eb5bbb7f99cb8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_250m_y_half.csv",
+    "source_sha256": "7da152efeac3aa352c0f4872aafdc809727b1cebfa0f7945fefc53dee3141853",
+    "release_sha256": "7da152efeac3aa352c0f4872aafdc809727b1cebfa0f7945fefc53dee3141853"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_500m_xy_half.csv",
+    "source_sha256": "67535d521bcb2b1449c58c2a5aeb3e92b228363fce9ee80a7eeda64671afa87f",
+    "release_sha256": "67535d521bcb2b1449c58c2a5aeb3e92b228363fce9ee80a7eeda64671afa87f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_500m_x_half.csv",
+    "source_sha256": "7ab6be410e28b8ac4dfb133ded6335a67448b27805cf52d686fd7ee867943ab2",
+    "release_sha256": "7ab6be410e28b8ac4dfb133ded6335a67448b27805cf52d686fd7ee867943ab2"
+  },
+  {
+    "source": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/DeepLabV3Plus_AOI_5_Khartoum_D_20261122_500m_y_half.csv",
+    "source_sha256": "0f132dc227732f503326f4c03a294fef4ebf87e9fbd9d81ddf22ae543f185314",
+    "release_sha256": "0f132dc227732f503326f4c03a294fef4ebf87e9fbd9d81ddf22ae543f185314"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_100m_xy_half.csv",
+    "source_sha256": "4000a8ba65ba48cd18086156dba9878a605ecb43bebd9f8437fa4a82861e1c5e",
+    "release_sha256": "4000a8ba65ba48cd18086156dba9878a605ecb43bebd9f8437fa4a82861e1c5e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_100m_x_half.csv",
+    "source_sha256": "84e238e01ca58024cc9849aaf98683e83d3e81dad7da5bd49ade24e449bfbf29",
+    "release_sha256": "84e238e01ca58024cc9849aaf98683e83d3e81dad7da5bd49ade24e449bfbf29"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_100m_y_half.csv",
+    "source_sha256": "71067d0ffb4d7a7656d2b971e2f9d39260a24555875401a1a63cd36c1b966034",
+    "release_sha256": "71067d0ffb4d7a7656d2b971e2f9d39260a24555875401a1a63cd36c1b966034"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_250m_xy_half.csv",
+    "source_sha256": "25017226d8e3d008e52a849f56f9b028ea003683afeb4a45b58713234a48c914",
+    "release_sha256": "25017226d8e3d008e52a849f56f9b028ea003683afeb4a45b58713234a48c914"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_250m_x_half.csv",
+    "source_sha256": "1428fee30d96138fa352547d3532bfd002c62e99fa8161d7058beaa7b963278e",
+    "release_sha256": "1428fee30d96138fa352547d3532bfd002c62e99fa8161d7058beaa7b963278e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_250m_y_half.csv",
+    "source_sha256": "3571e2f9c520e63ffada2c31b03beed0be8a4ac71275879423a21c01be97ae1d",
+    "release_sha256": "3571e2f9c520e63ffada2c31b03beed0be8a4ac71275879423a21c01be97ae1d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_500m_xy_half.csv",
+    "source_sha256": "099ecc768eb9bf93884504adb1e0c2ebaab0fa94253793bb63a0b095ff295852",
+    "release_sha256": "099ecc768eb9bf93884504adb1e0c2ebaab0fa94253793bb63a0b095ff295852"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_500m_x_half.csv",
+    "source_sha256": "7fec00f8fcdd253c966671a691b461b5ae09b9258b167779ee91a5b9fb3b0805",
+    "release_sha256": "7fec00f8fcdd253c966671a691b461b5ae09b9258b167779ee91a5b9fb3b0805"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261121_500m_y_half.csv",
+    "source_sha256": "508e57a98d467f5f1c3f3d5a8d4b42dd653bfa3482f5bb3b0a876601872ef14c",
+    "release_sha256": "508e57a98d467f5f1c3f3d5a8d4b42dd653bfa3482f5bb3b0a876601872ef14c"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_100m_xy_half.csv",
+    "source_sha256": "428b15e9b1000e4afb3b1665c616cef9cfed56cbc4b59fdd84e668f04ada5b2a",
+    "release_sha256": "428b15e9b1000e4afb3b1665c616cef9cfed56cbc4b59fdd84e668f04ada5b2a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_100m_x_half.csv",
+    "source_sha256": "0ca3c6f1ee6bca7872d0d792d6e4ca50eb1050b6e8e80dea859c5d78f9f1ca97",
+    "release_sha256": "0ca3c6f1ee6bca7872d0d792d6e4ca50eb1050b6e8e80dea859c5d78f9f1ca97"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_100m_y_half.csv",
+    "source_sha256": "d2f956600b5e16384536ff19a8e45c6dabf2366b41ac705f32bb8284db611108",
+    "release_sha256": "d2f956600b5e16384536ff19a8e45c6dabf2366b41ac705f32bb8284db611108"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_250m_xy_half.csv",
+    "source_sha256": "86e40a593889d1784605a453c1ca407268e8b1d8c2c6df2ffd53936d9b73597a",
+    "release_sha256": "86e40a593889d1784605a453c1ca407268e8b1d8c2c6df2ffd53936d9b73597a"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_250m_x_half.csv",
+    "source_sha256": "09b6da1603c61d7deac164478c06df56b71baf6a9feb3285d92f056aaea0189c",
+    "release_sha256": "09b6da1603c61d7deac164478c06df56b71baf6a9feb3285d92f056aaea0189c"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_250m_y_half.csv",
+    "source_sha256": "2b77936dbe4ad3f100a2706954670e0e737a73106317a38ffcd8272ef494208f",
+    "release_sha256": "2b77936dbe4ad3f100a2706954670e0e737a73106317a38ffcd8272ef494208f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_500m_xy_half.csv",
+    "source_sha256": "f4518dca7a6769881e391f1440e4247b34047159abcf0344834fbe42e7dcbc63",
+    "release_sha256": "f4518dca7a6769881e391f1440e4247b34047159abcf0344834fbe42e7dcbc63"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_500m_x_half.csv",
+    "source_sha256": "fb4dfad67e91afbb7126c465313e9fa2d712b3cd8da1d476cff1434bb3021d73",
+    "release_sha256": "fb4dfad67e91afbb7126c465313e9fa2d712b3cd8da1d476cff1434bb3021d73"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_A_20261122_500m_y_half.csv",
+    "source_sha256": "21f51435d6bbe352d56be5006f77fb911915ad803eefb286057998337d3fbe9e",
+    "release_sha256": "21f51435d6bbe352d56be5006f77fb911915ad803eefb286057998337d3fbe9e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_100m_xy_half.csv",
+    "source_sha256": "4dd8182b2641a0b4b7b0807d9901961d8bf84c2787ab62929cca5cbb03c97a70",
+    "release_sha256": "4dd8182b2641a0b4b7b0807d9901961d8bf84c2787ab62929cca5cbb03c97a70"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_100m_x_half.csv",
+    "source_sha256": "5a52fe6b402d0afea1878cae909443d595bf226cbc57fd11e11f3c6faad4cbc4",
+    "release_sha256": "5a52fe6b402d0afea1878cae909443d595bf226cbc57fd11e11f3c6faad4cbc4"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_100m_y_half.csv",
+    "source_sha256": "31e5253d94e2490407caa9048df5fa734689061aa3ff7eedbbd31f7d973c9b0d",
+    "release_sha256": "31e5253d94e2490407caa9048df5fa734689061aa3ff7eedbbd31f7d973c9b0d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_250m_xy_half.csv",
+    "source_sha256": "a3e7d32cc107b66be2289dae4a568be557405d30b70d1a26f3e8290b38d1e101",
+    "release_sha256": "a3e7d32cc107b66be2289dae4a568be557405d30b70d1a26f3e8290b38d1e101"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_250m_x_half.csv",
+    "source_sha256": "29bbb644c72d4ba3824ef44423dadcdc808e19a3ac14fdc8f6d3425c0f69d8ce",
+    "release_sha256": "29bbb644c72d4ba3824ef44423dadcdc808e19a3ac14fdc8f6d3425c0f69d8ce"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_250m_y_half.csv",
+    "source_sha256": "c8e2ff7101aac42c44e8a0ba916e76b366080adc87d8683d6d5c4b5555cd16e5",
+    "release_sha256": "c8e2ff7101aac42c44e8a0ba916e76b366080adc87d8683d6d5c4b5555cd16e5"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_500m_xy_half.csv",
+    "source_sha256": "90bf8047d70319f25f14bd4647e44585f60cfc539efdb5fb9d5adbc8de0a4045",
+    "release_sha256": "90bf8047d70319f25f14bd4647e44585f60cfc539efdb5fb9d5adbc8de0a4045"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_500m_x_half.csv",
+    "source_sha256": "5aef1994ab02e3f0bfd63f0977b40e6e6f1afbae11ab1c8bdcdc660ac0d50001",
+    "release_sha256": "5aef1994ab02e3f0bfd63f0977b40e6e6f1afbae11ab1c8bdcdc660ac0d50001"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261121_500m_y_half.csv",
+    "source_sha256": "a75e747d80f380b03f8ab18e940980fb5a1d8e5bc0f117e3080470ca7249eb3f",
+    "release_sha256": "a75e747d80f380b03f8ab18e940980fb5a1d8e5bc0f117e3080470ca7249eb3f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_100m_xy_half.csv",
+    "source_sha256": "bf041322d997893667c068e08d1c5a653a85c239193754c5378326bdb936595e",
+    "release_sha256": "bf041322d997893667c068e08d1c5a653a85c239193754c5378326bdb936595e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_100m_x_half.csv",
+    "source_sha256": "44df129838b55f7a63e02af04128ef722b1440a9bf6f3ade31e82a0b697b05c2",
+    "release_sha256": "44df129838b55f7a63e02af04128ef722b1440a9bf6f3ade31e82a0b697b05c2"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_100m_y_half.csv",
+    "source_sha256": "a3af8a118a6f59ae40735dff4d8ab2a071b8979fcb65b9ccf31091955250394d",
+    "release_sha256": "a3af8a118a6f59ae40735dff4d8ab2a071b8979fcb65b9ccf31091955250394d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_250m_xy_half.csv",
+    "source_sha256": "4ea4890b12e5018222a29c160a70eff65146a663c9625aeb84cbfb142ff40956",
+    "release_sha256": "4ea4890b12e5018222a29c160a70eff65146a663c9625aeb84cbfb142ff40956"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_250m_x_half.csv",
+    "source_sha256": "e01eb66f0310e358058276788040ffeb99efa7ad96a8bb0166cd88c84ab38fb1",
+    "release_sha256": "e01eb66f0310e358058276788040ffeb99efa7ad96a8bb0166cd88c84ab38fb1"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_250m_y_half.csv",
+    "source_sha256": "d88cb13419d6476036a5981259cb57effd2b47c36b38a1d2882a7fe3fbb3b444",
+    "release_sha256": "d88cb13419d6476036a5981259cb57effd2b47c36b38a1d2882a7fe3fbb3b444"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_500m_xy_half.csv",
+    "source_sha256": "79282b629c99d2d17e0293606fcf7fe912314a98c911c02a508e55e6e753d0d2",
+    "release_sha256": "79282b629c99d2d17e0293606fcf7fe912314a98c911c02a508e55e6e753d0d2"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_500m_x_half.csv",
+    "source_sha256": "12428d9b4fc2df608b70e1260a237204f0c7fbd2bd8d77cb678ddba17bc48529",
+    "release_sha256": "12428d9b4fc2df608b70e1260a237204f0c7fbd2bd8d77cb678ddba17bc48529"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_3_Paris_C_20261122_500m_y_half.csv",
+    "source_sha256": "04f5f46811b097a23a0a51662505bd543530b9704ed16f6a4c42cd7479cc9401",
+    "release_sha256": "04f5f46811b097a23a0a51662505bd543530b9704ed16f6a4c42cd7479cc9401"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_100m_xy_half.csv",
+    "source_sha256": "4f7cd53d1396e7dce1e4c1be7933e73cfafc5eb7f80b217f287de8513d18a54d",
+    "release_sha256": "4f7cd53d1396e7dce1e4c1be7933e73cfafc5eb7f80b217f287de8513d18a54d"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_100m_x_half.csv",
+    "source_sha256": "5cd8ced953ef5a0251375881cf5caaee7f5b7f16c0d2627f0b557b6095603bb3",
+    "release_sha256": "5cd8ced953ef5a0251375881cf5caaee7f5b7f16c0d2627f0b557b6095603bb3"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_100m_y_half.csv",
+    "source_sha256": "0f4c14b2c26ddbc13cd2f5aa08687ef91d57763494fa7752a5fb0041cef70e18",
+    "release_sha256": "0f4c14b2c26ddbc13cd2f5aa08687ef91d57763494fa7752a5fb0041cef70e18"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_250m_xy_half.csv",
+    "source_sha256": "f9ebd62ceeb74b5352aadd3843e354f8a5a5089fb1a2779a89401950f5e8c65b",
+    "release_sha256": "f9ebd62ceeb74b5352aadd3843e354f8a5a5089fb1a2779a89401950f5e8c65b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_250m_x_half.csv",
+    "source_sha256": "84f036673fcaf0fa585a9e8be0b26e9b80174271555e972b482fbe9abaf8180e",
+    "release_sha256": "84f036673fcaf0fa585a9e8be0b26e9b80174271555e972b482fbe9abaf8180e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_250m_y_half.csv",
+    "source_sha256": "9a9761eda6d20f5b0f9a3647033c7afc895ced81067e83460b9e9a7998bd2a7b",
+    "release_sha256": "9a9761eda6d20f5b0f9a3647033c7afc895ced81067e83460b9e9a7998bd2a7b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_500m_xy_half.csv",
+    "source_sha256": "6dea4185dee35ed0bd7ba345b1dd7595e848649636e7b6e65358921c51fc38a6",
+    "release_sha256": "6dea4185dee35ed0bd7ba345b1dd7595e848649636e7b6e65358921c51fc38a6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_500m_x_half.csv",
+    "source_sha256": "309d96eab0bc8efd114d9f4fe90a5f36d8336697592112506e198241a8decda0",
+    "release_sha256": "309d96eab0bc8efd114d9f4fe90a5f36d8336697592112506e198241a8decda0"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261121_500m_y_half.csv",
+    "source_sha256": "1e8f057f68003c829a5e016da978a4ecb0fc0cbfa5401075bd47933db4d77053",
+    "release_sha256": "1e8f057f68003c829a5e016da978a4ecb0fc0cbfa5401075bd47933db4d77053"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_100m_xy_half.csv",
+    "source_sha256": "4d87d74fd344f732289dea039ef6a21b5dd55d7eab10e60e6b66680ee1f6ce00",
+    "release_sha256": "4d87d74fd344f732289dea039ef6a21b5dd55d7eab10e60e6b66680ee1f6ce00"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_100m_x_half.csv",
+    "source_sha256": "f3511a60a1b6585b00eac98153d61bf7dee43fce60fd6d8f96e57409ef7b5a6e",
+    "release_sha256": "f3511a60a1b6585b00eac98153d61bf7dee43fce60fd6d8f96e57409ef7b5a6e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_100m_y_half.csv",
+    "source_sha256": "99d4c9c8a4d35d5cdd1fd7272fa37d9f9084c4ad67809cf9e549a925cf3ec99c",
+    "release_sha256": "99d4c9c8a4d35d5cdd1fd7272fa37d9f9084c4ad67809cf9e549a925cf3ec99c"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_250m_xy_half.csv",
+    "source_sha256": "81d808c48fd089cf81eb7f63b3ef897f18370a5753f0f9232a0e65ab973c948f",
+    "release_sha256": "81d808c48fd089cf81eb7f63b3ef897f18370a5753f0f9232a0e65ab973c948f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_250m_x_half.csv",
+    "source_sha256": "8485d7fcb4129d2c8471af61df093c441868214c39c91a08c1a1af2b1b375aef",
+    "release_sha256": "8485d7fcb4129d2c8471af61df093c441868214c39c91a08c1a1af2b1b375aef"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_250m_y_half.csv",
+    "source_sha256": "3ce3a14976ab00f756fc1e2c8f3e187f89a5bc0d50f4999ee9f0629f019990fe",
+    "release_sha256": "3ce3a14976ab00f756fc1e2c8f3e187f89a5bc0d50f4999ee9f0629f019990fe"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_500m_xy_half.csv",
+    "source_sha256": "4a13fee74ac61838dc44f606e3c5ba76101c260263905f64db1aab75ced0884b",
+    "release_sha256": "4a13fee74ac61838dc44f606e3c5ba76101c260263905f64db1aab75ced0884b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_500m_x_half.csv",
+    "source_sha256": "4d5b997f11ebb8fb00199de929783454d2d90507286a34dd8ba68fa7b601d48f",
+    "release_sha256": "4d5b997f11ebb8fb00199de929783454d2d90507286a34dd8ba68fa7b601d48f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_B_20261122_500m_y_half.csv",
+    "source_sha256": "760287e123b315b3ffa664a1755fe08f42af4dd9184d3729c62c67b6a545010b",
+    "release_sha256": "760287e123b315b3ffa664a1755fe08f42af4dd9184d3729c62c67b6a545010b"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_100m_xy_half.csv",
+    "source_sha256": "fa5ab677dcedfb8e0f06bee5f8e80622d549df38be0157d557d9031358b0003f",
+    "release_sha256": "fa5ab677dcedfb8e0f06bee5f8e80622d549df38be0157d557d9031358b0003f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_100m_x_half.csv",
+    "source_sha256": "000ca4923b96af50f6d1a06b0513edf0841f6a8535c0b30cb41316d3f289adaa",
+    "release_sha256": "000ca4923b96af50f6d1a06b0513edf0841f6a8535c0b30cb41316d3f289adaa"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_100m_y_half.csv",
+    "source_sha256": "fad2593e0b2049c4a7c4e4a420877348ec2d80831ef9593d3cfff41424470429",
+    "release_sha256": "fad2593e0b2049c4a7c4e4a420877348ec2d80831ef9593d3cfff41424470429"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_250m_xy_half.csv",
+    "source_sha256": "845cc14978093c41b3b091ccfa92cf42d75b3c6bb98e68659f7f40fad7dd887c",
+    "release_sha256": "845cc14978093c41b3b091ccfa92cf42d75b3c6bb98e68659f7f40fad7dd887c"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_250m_x_half.csv",
+    "source_sha256": "5ec3290254d84fbee5adf737416b2fbfb0eca529b74ec5e8e767227efbe95122",
+    "release_sha256": "5ec3290254d84fbee5adf737416b2fbfb0eca529b74ec5e8e767227efbe95122"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_250m_y_half.csv",
+    "source_sha256": "f20dc60f7ac5f6a7377d894238267ad773a30c989f666bd98c14e3646715f6c8",
+    "release_sha256": "f20dc60f7ac5f6a7377d894238267ad773a30c989f666bd98c14e3646715f6c8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_500m_xy_half.csv",
+    "source_sha256": "4c3b28d40ee11ca02d2061d23d0f0f10426e5418c8e442a9db49a4d7d1464ab7",
+    "release_sha256": "4c3b28d40ee11ca02d2061d23d0f0f10426e5418c8e442a9db49a4d7d1464ab7"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_500m_x_half.csv",
+    "source_sha256": "ab6827a45722d552ff140177aaea0a0d928490096da4448c323ed7154ba3bad6",
+    "release_sha256": "ab6827a45722d552ff140177aaea0a0d928490096da4448c323ed7154ba3bad6"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261121_500m_y_half.csv",
+    "source_sha256": "5ff8c2bf486d717e300fe263d63321b3db2cff80793a057844230eb20ccb00ba",
+    "release_sha256": "5ff8c2bf486d717e300fe263d63321b3db2cff80793a057844230eb20ccb00ba"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_100m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_100m_xy_half.csv",
+    "source_sha256": "08cb0b69877559622d81884e1834f627ef2d0f68438936cf10879b3956794fb8",
+    "release_sha256": "08cb0b69877559622d81884e1834f627ef2d0f68438936cf10879b3956794fb8"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_100m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_100m_x_half.csv",
+    "source_sha256": "52fab9fab753cdeb6cb97a7119a929f453982e5ae849de4a690e313c7772a52f",
+    "release_sha256": "52fab9fab753cdeb6cb97a7119a929f453982e5ae849de4a690e313c7772a52f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_100m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_100m_y_half.csv",
+    "source_sha256": "2b6c58d85426bff2ca090d99286b5578a18958d1de54cdcaddcc680aeddbe0d4",
+    "release_sha256": "2b6c58d85426bff2ca090d99286b5578a18958d1de54cdcaddcc680aeddbe0d4"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_250m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_250m_xy_half.csv",
+    "source_sha256": "b656969760c530e8da5f65b16ff13d28cc7af846268447ab60d74c606b325676",
+    "release_sha256": "b656969760c530e8da5f65b16ff13d28cc7af846268447ab60d74c606b325676"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_250m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_250m_x_half.csv",
+    "source_sha256": "2588bb9a315a30c4b12555b514e01b736e55ccb4369dceb13d3411efb1f3b415",
+    "release_sha256": "2588bb9a315a30c4b12555b514e01b736e55ccb4369dceb13d3411efb1f3b415"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_250m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_250m_y_half.csv",
+    "source_sha256": "82d1cbe6f01cf677a9f60cce521ec5433f63523a15661087bd09b35c5d83964f",
+    "release_sha256": "82d1cbe6f01cf677a9f60cce521ec5433f63523a15661087bd09b35c5d83964f"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_500m_xy_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_500m_xy_half.csv",
+    "source_sha256": "09cb2611cb3990f9c2f2fab6c7655a239bcac69b19b071b81984c965514cc891",
+    "release_sha256": "09cb2611cb3990f9c2f2fab6c7655a239bcac69b19b071b81984c965514cc891"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_500m_x_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_500m_x_half.csv",
+    "source_sha256": "0974d32d0b01b8bfc9033b4599ad1c67db794baed9dd3d58916aa0d3d18ccf9e",
+    "release_sha256": "0974d32d0b01b8bfc9033b4599ad1c67db794baed9dd3d58916aa0d3d18ccf9e"
+  },
+  {
+    "source": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_500m_y_half.csv",
+    "destination": "results/P5_03/tables/cells/UNet_AOI_5_Khartoum_D_20261122_500m_y_half.csv",
+    "source_sha256": "38ae9a145a99d979465f1466062d742fdcc67a2ad7e83dd577b7580b35e1490c",
+    "release_sha256": "38ae9a145a99d979465f1466062d742fdcc67a2ad7e83dd577b7580b35e1490c"
+  },
+  {
+    "source": "results/P5_03/figures/F1_source.csv",
+    "destination": "results/P5_03/figures/F1_source.csv",
+    "source_sha256": "7d5dced63a36e581ae5510a79755c3962545da7a4d7d38c74415559a11580e58",
+    "release_sha256": "7d5dced63a36e581ae5510a79755c3962545da7a4d7d38c74415559a11580e58"
+  },
+  {
+    "source": "results/P5_03/figures/F2_source.csv",
+    "destination": "results/P5_03/figures/F2_source.csv",
+    "source_sha256": "353318afe7c1d9d7a00756cb7d5d12d65e8082193100c56117d2e4f217bb479e",
+    "release_sha256": "353318afe7c1d9d7a00756cb7d5d12d65e8082193100c56117d2e4f217bb479e"
+  },
+  {
+    "source": "results/P5_03/figures/F3_source.csv",
+    "destination": "results/P5_03/figures/F3_source.csv",
+    "source_sha256": "353318afe7c1d9d7a00756cb7d5d12d65e8082193100c56117d2e4f217bb479e",
+    "release_sha256": "353318afe7c1d9d7a00756cb7d5d12d65e8082193100c56117d2e4f217bb479e"
+  },
+  {
+    "source": "results/P5_03/figures/F4_scenario_grid_source.csv",
+    "destination": "results/P5_03/figures/F4_scenario_grid_source.csv",
+    "source_sha256": "e91a420f46aa9cd32f2f46dd1a50a1e47d3cf87828056129dbdea8c7239e56c7",
+    "release_sha256": "e91a420f46aa9cd32f2f46dd1a50a1e47d3cf87828056129dbdea8c7239e56c7"
+  },
+  {
+    "source": "results/P5_03/figures/F4_zero_source.csv",
+    "destination": "results/P5_03/figures/F4_zero_source.csv",
+    "source_sha256": "1bcb8343dd5806a54d086f42d7238a08b27f307049b874db85afa57678fedc43",
+    "release_sha256": "1bcb8343dd5806a54d086f42d7238a08b27f307049b874db85afa57678fedc43"
+  },
+  {
+    "source": "paper/figures_v2/fig1_study_area_and_spatial_split.pdf",
+    "destination": "figures/fig1_study_area_and_spatial_split.pdf",
+    "source_sha256": "72a43566a26c935fe282fe5d5d3666d60c31fef2926e66e8f1a4b8a6cd693ce3",
+    "release_sha256": "72a43566a26c935fe282fe5d5d3666d60c31fef2926e66e8f1a4b8a6cd693ce3"
+  },
+  {
+    "source": "paper/figures_v2/fig1_study_area_and_spatial_split.png",
+    "destination": "figures/fig1_study_area_and_spatial_split.png",
+    "source_sha256": "5855a39b18db89199c84786feefb59ea3b1f27e673ea1e55a80ba1b2a3fd12f9",
+    "release_sha256": "5855a39b18db89199c84786feefb59ea3b1f27e673ea1e55a80ba1b2a3fd12f9"
+  },
+  {
+    "source": "paper/figures_v2/fig1_study_area_and_spatial_split.svg",
+    "destination": "figures/fig1_study_area_and_spatial_split.svg",
+    "source_sha256": "62b84d99f83676ab1643109fb2bca5c983af2721947f5310f86a18d2f633c40d",
+    "release_sha256": "62b84d99f83676ab1643109fb2bca5c983af2721947f5310f86a18d2f633c40d"
+  },
+  {
+    "source": "paper/figures_v2/fig2_cross_city_asymmetric_degradation.pdf",
+    "destination": "figures/fig2_cross_city_asymmetric_degradation.pdf",
+    "source_sha256": "f1321d23992b55883ba8bebc694e8bc15b14690583bfdc61b18a19a8db495e00",
+    "release_sha256": "f1321d23992b55883ba8bebc694e8bc15b14690583bfdc61b18a19a8db495e00"
+  },
+  {
+    "source": "paper/figures_v2/fig2_cross_city_asymmetric_degradation.png",
+    "destination": "figures/fig2_cross_city_asymmetric_degradation.png",
+    "source_sha256": "8b254efaff4993972c02ffdf4b224ee74c944ca8a3b028573d0232ac3ce1b8b4",
+    "release_sha256": "8b254efaff4993972c02ffdf4b224ee74c944ca8a3b028573d0232ac3ce1b8b4"
+  },
+  {
+    "source": "paper/figures_v2/fig2_cross_city_asymmetric_degradation.svg",
+    "destination": "figures/fig2_cross_city_asymmetric_degradation.svg",
+    "source_sha256": "ab485b6470f01df387fa74b67f0f1b47e02a29aae54d439394af1e8adbccae29",
+    "release_sha256": "ab485b6470f01df387fa74b67f0f1b47e02a29aae54d439394af1e8adbccae29"
+  },
+  {
+    "source": "paper/figures_v2/fig3_multiscale_gis_error_and_cancellation.pdf",
+    "destination": "figures/fig3_multiscale_gis_error_and_cancellation.pdf",
+    "source_sha256": "46b7b101a68a1ac79be2929f63812fff4b26e5c5b810d135261d17f500e0d63d",
+    "release_sha256": "46b7b101a68a1ac79be2929f63812fff4b26e5c5b810d135261d17f500e0d63d"
+  },
+  {
+    "source": "paper/figures_v2/fig3_multiscale_gis_error_and_cancellation.png",
+    "destination": "figures/fig3_multiscale_gis_error_and_cancellation.png",
+    "source_sha256": "9f7a9c65d64929c98af2e2b9a4e5b02cd58a6cf83ab3b9766c1af21e694560e7",
+    "release_sha256": "9f7a9c65d64929c98af2e2b9a4e5b02cd58a6cf83ab3b9766c1af21e694560e7"
+  },
+  {
+    "source": "paper/figures_v2/fig3_multiscale_gis_error_and_cancellation.svg",
+    "destination": "figures/fig3_multiscale_gis_error_and_cancellation.svg",
+    "source_sha256": "784691ec860e4dce404154d661239e89c37e4a49625fe8e78405e8c232d403f7",
+    "release_sha256": "784691ec860e4dce404154d661239e89c37e4a49625fe8e78405e8c232d403f7"
+  },
+  {
+    "source": "paper/figures_v2/fig4_dual_error_diagnosis_and_counterexample.pdf",
+    "destination": "figures/fig4_dual_error_diagnosis_and_counterexample.pdf",
+    "source_sha256": "c9e224e8933e0646281781db0599a6a93d8ac86e764c8fad58b6cc11876de463",
+    "release_sha256": "c9e224e8933e0646281781db0599a6a93d8ac86e764c8fad58b6cc11876de463"
+  },
+  {
+    "source": "paper/figures_v2/fig4_dual_error_diagnosis_and_counterexample.png",
+    "destination": "figures/fig4_dual_error_diagnosis_and_counterexample.png",
+    "source_sha256": "4f96afadd92889899b75b0ef27f5ff711c1c6c43ce9fd6c7331ad7a5c3898cff",
+    "release_sha256": "4f96afadd92889899b75b0ef27f5ff711c1c6c43ce9fd6c7331ad7a5c3898cff"
+  },
+  {
+    "source": "paper/figures_v2/fig4_dual_error_diagnosis_and_counterexample.svg",
+    "destination": "figures/fig4_dual_error_diagnosis_and_counterexample.svg",
+    "source_sha256": "9503ecf675797b2ca177b4a2b5b4ec8f07b346ca166f41846b20a82dca246aed",
+    "release_sha256": "9503ecf675797b2ca177b4a2b5b4ec8f07b346ca166f41846b20a82dca246aed"
+  },
+  {
+    "source": "paper/figures_v2/fig5_maup_grid_origin_sensitivity.pdf",
+    "destination": "figures/fig5_maup_grid_origin_sensitivity.pdf",
+    "source_sha256": "5ac34149867ad1300b5468e3064c0b172f88dc7653e0ee5c4c4ef7f707aadcf6",
+    "release_sha256": "5ac34149867ad1300b5468e3064c0b172f88dc7653e0ee5c4c4ef7f707aadcf6"
+  },
+  {
+    "source": "paper/figures_v2/fig5_maup_grid_origin_sensitivity.png",
+    "destination": "figures/fig5_maup_grid_origin_sensitivity.png",
+    "source_sha256": "665764494f17cfa6d3e0a4f41132542a8b4561855ac2f855138407dd9f013dec",
+    "release_sha256": "665764494f17cfa6d3e0a4f41132542a8b4561855ac2f855138407dd9f013dec"
+  },
+  {
+    "source": "paper/figures_v2/fig5_maup_grid_origin_sensitivity.svg",
+    "destination": "figures/fig5_maup_grid_origin_sensitivity.svg",
+    "source_sha256": "81e87e1d7cdb6548c8dd2a5badd7a7e6de15d26b783f16990a5d901b6cf7f60c",
+    "release_sha256": "81e87e1d7cdb6548c8dd2a5badd7a7e6de15d26b783f16990a5d901b6cf7f60c"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS1_model_efficiency_and_resources.pdf",
+    "destination": "figures/figS1_model_efficiency_and_resources.pdf",
+    "source_sha256": "0d38563a958810de96e71c2c855080d396fb2819fb291033df860458957e2cab",
+    "release_sha256": "0d38563a958810de96e71c2c855080d396fb2819fb291033df860458957e2cab"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS1_model_efficiency_and_resources.png",
+    "destination": "figures/figS1_model_efficiency_and_resources.png",
+    "source_sha256": "390db1f8dbddb6732533401c7a808e5db8e8e56ae9a59f74677240a52462c38c",
+    "release_sha256": "390db1f8dbddb6732533401c7a808e5db8e8e56ae9a59f74677240a52462c38c"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS1_model_efficiency_and_resources.svg",
+    "destination": "figures/figS1_model_efficiency_and_resources.svg",
+    "source_sha256": "fec20ac8fecf3f387b4991f3ed0bd7b44e0fe4026e54e41740caac94b3b9ec04",
+    "release_sha256": "fec20ac8fecf3f387b4991f3ed0bd7b44e0fe4026e54e41740caac94b3b9ec04"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS2_threshold_sensitivity_27_scenarios.pdf",
+    "destination": "figures/figS2_threshold_sensitivity_27_scenarios.pdf",
+    "source_sha256": "c70d63e634283519fdb86a29aa098b4e9f5454018ad321f6ef635c6fccaca9e1",
+    "release_sha256": "c70d63e634283519fdb86a29aa098b4e9f5454018ad321f6ef635c6fccaca9e1"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS2_threshold_sensitivity_27_scenarios.png",
+    "destination": "figures/figS2_threshold_sensitivity_27_scenarios.png",
+    "source_sha256": "a34bec167d4cf65d59488f105b111e93b8a4e94e38f47913d097212555eeb63a",
+    "release_sha256": "a34bec167d4cf65d59488f105b111e93b8a4e94e38f47913d097212555eeb63a"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS2_threshold_sensitivity_27_scenarios.svg",
+    "destination": "figures/figS2_threshold_sensitivity_27_scenarios.svg",
+    "source_sha256": "e7ef4e011e21c5f1cfb16090c306ff82c3fcc0fb5e7fd9ddb8f38eb89197b0df",
+    "release_sha256": "e7ef4e011e21c5f1cfb16090c306ff82c3fcc0fb5e7fd9ddb8f38eb89197b0df"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS3_training_loss_and_selection_curves.pdf",
+    "destination": "figures/figS3_training_loss_and_selection_curves.pdf",
+    "source_sha256": "9539cbd0d392dbda5aed8f0359ad2b95c74a45beb39d6c9f2bf031d1ed52ee54",
+    "release_sha256": "9539cbd0d392dbda5aed8f0359ad2b95c74a45beb39d6c9f2bf031d1ed52ee54"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS3_training_loss_and_selection_curves.png",
+    "destination": "figures/figS3_training_loss_and_selection_curves.png",
+    "source_sha256": "82cd223582b1c335c88e4bf91510d3903e0e59ebaa7e69d039fb184a6646ed6c",
+    "release_sha256": "82cd223582b1c335c88e4bf91510d3903e0e59ebaa7e69d039fb184a6646ed6c"
+  },
+  {
+    "source": "paper/P6_integrated_v2/figures/figS3_training_loss_and_selection_curves.svg",
+    "destination": "figures/figS3_training_loss_and_selection_curves.svg",
+    "source_sha256": "c3edcf1142b7f79f419b0838c16299ccc882c708d08274646602e9af0c2dd199",
+    "release_sha256": "c3edcf1142b7f79f419b0838c16299ccc882c708d08274646602e9af0c2dd199"
+  },
+  {
+    "source": "paper/scripts/build_fig1_study_area.py",
+    "destination": "scripts/figures_original/build_fig1_study_area.py",
+    "source_sha256": "80f92a3306e91a07d6e4db872a0e0dc5faa47d832dec91830acaf1de1ebbc98a",
+    "release_sha256": "7cc66cc0841a9594530809bc3131c4c404699a444aa699960f0739239db87aa0"
+  },
+  {
+    "source": "paper/scripts/build_fig2_cross_city_degradation.py",
+    "destination": "scripts/figures_original/build_fig2_cross_city_degradation.py",
+    "source_sha256": "5f0597d72f9a7b1f188f1bf9757f8a2ec89912f1aef04d2e613c7871896085ed",
+    "release_sha256": "fd68f379181d6a19f10bd30be1da50413cbdfb37f0c8cd01bf50f5f8e1b5248e"
+  },
+  {
+    "source": "paper/scripts/build_fig3_multiscale_gis_errors.py",
+    "destination": "scripts/figures_original/build_fig3_multiscale_gis_errors.py",
+    "source_sha256": "ac1e5e23cfbd2bdfe5286b4aca1bd5ebb2792689ee7aebc5c62dc21aec6239ce",
+    "release_sha256": "d2a01526a9a158abf1ab22e8f3ad75cc4c705f6f2ad4b17a864782bd90288e58"
+  },
+  {
+    "source": "paper/scripts/build_fig4_dual_error_diagnosis.py",
+    "destination": "scripts/figures_original/build_fig4_dual_error_diagnosis.py",
+    "source_sha256": "102ae190032077a5107d64d85c9002ec48fedf748bdb5f121ceb8370bcbe8e38",
+    "release_sha256": "2b31a597e7c6c1f091af92428cf77ecf04a9e7594f5e548a01770bdbd04d3ac9"
+  },
+  {
+    "source": "paper/scripts/build_fig5_maup_origin_sensitivity.py",
+    "destination": "scripts/figures_original/build_fig5_maup_origin_sensitivity.py",
+    "source_sha256": "31edc3cd1f4b910a85f2c3248923361bc6ee38cca2abf15de45e6a92ce2e6520",
+    "release_sha256": "1ffbb8bb0929f230f463200739cf8907c46675f7d818d7abac8dd50906bfba88"
+  },
+  {
+    "source": "paper/scripts/build_supplementary_figures_v2.py",
+    "destination": "scripts/figures_original/build_supplementary_figures_v2.py",
+    "source_sha256": "4852ee4ae990207c9a19c9501bca2a3c18bb5dea101a7e48900ed8dec789552e",
+    "release_sha256": "3f641bd3d49e4923dfc393ff64cda492ee0804a9a0319c3b062c5520897c3549"
+  },
+  {
+    "source": "src/p3_02_metrics.py",
+    "destination": "src/p3_02_metrics.py",
+    "source_sha256": "5358f99d64416591b9832d19fd640f9200c9b056031713ce1fe175c5d5e2f49c",
+    "release_sha256": "5358f99d64416591b9832d19fd640f9200c9b056031713ce1fe175c5d5e2f49c"
+  },
+  {
+    "source": "scripts/P5_03/run_cross_experiment.py",
+    "destination": "src/scenarios.py",
+    "extracted_symbols": [
+      "_evaluate_27_and_budgets"
+    ],
+    "source_sha256": "48bc2cd2bb2ee328e4886cced5aa3ac898d96735e20fae8ebd24d4da938dc100",
+    "release_sha256": "2a5571350ac35c99aa2bb1a38374cc4f58c992875bb447f4aba16e148c388e91"
+  }
+]

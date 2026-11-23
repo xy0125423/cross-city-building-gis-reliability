@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "formal_results_reproduced": false,
+  "coverage": [
+    "GeoTIFF/GeoJSON",
+    "both model forward/backward",
+    "checkpoint reload",
+    "native inference/evaluation/export",
+    "overlap ownership",
+    "3 scales × 4 origins"
+  ],
+  "models": [
+    {
+      "architecture": "UNet",
+      "loss": 1.3485758304595947,
+      "micro": {
+        "tp": 256,
+        "fp": 704,
+        "fn": 0,
+        "tn": 0,
+        "valid_pixels": 960,
+        "IoU": 0.26666666666666666,
+        "F1": 0.42105263157894735,
+        "Precision": 0.26666666666666666,
+        "Recall": 1.0
+      },
+      "grid_cells": [
+        4,
+        4,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "architecture": "DeepLabV3Plus",
+      "loss": 3.326669692993164,
+      "micro": {
+        "tp": 256,
+        "fp": 704,
+        "fn": 0,
+        "tn": 0,
+        "valid_pixels": 960,
+        "IoU": 0.26666666666666666,
+        "F1": 0.42105263157894735,
+        "Precision": 0.26666666666666666,
+        "Recall": 1.0
+      },
+      "grid_cells": [
+        4,
+        4,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

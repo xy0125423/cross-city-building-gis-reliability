@@ -1,0 +1,23 @@
+{
+  "scenes": 2160,
+  "manifest_sha256": "b6820bc6554f07e6ec95ae8f82a5082918b338c13f3e7507a5d27c9f580b76c0",
+  "support_rule": {
+    "version": "P1_01_v1",
+    "classes": {
+      "0": "supported_edge_padding",
+      "1": "conservative_observed",
+      "2": "uncertain",
+      "3": "source_mask_invalid"
+    },
+    "connectivity": 4,
+    "minimum_padding_component_pixels": 64,
+    "native_support_interior_erosion_pixels": 2,
+    "minimum_native_zero_agreement": 0.99,
+    "padding_guard_pixels": 1,
+    "minimum_building_covered_area_fraction": 0.999,
+    "density_grid_metres": 500,
+    "authority": "local evidence-based operational footprint, not publisher ground truth"
+  },
+  "excluded": "AOI_5_Khartoum_img894",
+  "splits": "Frozen effective_split, including quality/buffer/development exclusions; never re-search split."
+}

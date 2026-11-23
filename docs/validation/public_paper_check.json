@@ -1,0 +1,14 @@
+[
+  {
+    "copy": "public_main",
+    "pages": 11,
+    "author_present": true,
+    "public_email_omitted": true
+  },
+  {
+    "copy": "public_supp",
+    "pages": 8,
+    "author_present": true,
+    "public_email_omitted": true
+  }
+]

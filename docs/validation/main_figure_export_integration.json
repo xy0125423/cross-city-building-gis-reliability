@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "main_figures": [
+    "fig1_study_area_and_spatial_split.png",
+    "fig2_cross_city_asymmetric_degradation.png",
+    "fig3_multiscale_gis_error_and_cancellation.png",
+    "fig4_dual_error_diagnosis_and_counterexample.png",
+    "fig5_maup_grid_origin_sensitivity.png"
+  ],
+  "source": "Archived real outputs arranged in portable run schema, then actual exporter and plotting code",
+  "clean_environment": true,
+  "new_formal_training": false
+}

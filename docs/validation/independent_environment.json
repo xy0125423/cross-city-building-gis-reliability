@@ -1,0 +1,9 @@
+{
+  "python": "3.11",
+  "environment": "clean .venv; PYTHONPATH cleared",
+  "dependency_installation": "PASS",
+  "pip_check": "PASS",
+  "unit_tests_passed": 9,
+  "synthetic_smoke": "PASS",
+  "full_formal_training_rerun": false
+}
