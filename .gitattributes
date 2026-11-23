@@ -1,0 +1,11 @@
+# Preserve scientific asset, manifest and provenance bytes across platforms.
+* -text
+*.svg -diff
+*.pdf binary
+*.png binary
+*.jpg binary
+*.gpkg binary
+*.tif binary
+*.shp binary
+*.shx binary
+*.dbf binary
