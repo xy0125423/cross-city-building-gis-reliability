@@ -45,9 +45,8 @@ code; the LICENSE scope notice excludes research documents, remote-sensing image
 derived third-party media and third-party code. The upstream U-Net MIT license and
 SpaceNet CC BY-SA terms retain their own scope.
 
-The authenticated GitHub profile is xy0125423; account/repository/public visibility
-confirmation is still required by the task before creating or pushing the remote.
-No remote publication is claimed until its actual commit is checked.
+The public repository was created under the authenticated GitHub profile xy0125423.
+For the final release, verify that the remote default-branch HEAD exactly matches the local HEAD.
 
 Engineering intermediates remain outside the public candidate. An early plotting
 probe created a new workspace-level `figures/regenerated/` folder before its absolute
