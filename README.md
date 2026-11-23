@@ -144,7 +144,9 @@ SpaceNet imagery/labels and adapted figure panels carry the publisher's CC BY-SA
 terms and attribution obligations. Vendored U-Net retains its original MIT license.
 
 Use [CITATION.cff](CITATION.cff) for this research software. No journal, DOI or other
-authors are invented. The project-wide code/manuscript license awaits the author's
-choice; see [license status](docs/LICENSE_STATUS.md). Public availability alone is
-not an open-source license grant. The actual repository maintainer will be the
-authenticated GitHub account confirmed for publication.
+authors are invented. The top-level [MIT License](LICENSE) applies only to Mengle
+Xue's original software code. The manuscript, supplement, SpaceNet imagery and
+annotations, derived media containing third-party material, and third-party code
+retain their own terms; details and dependency license metadata are in
+[license scope](docs/LICENSE_STATUS.md) and [dependency licenses](docs/DEPENDENCY_LICENSES.md).
+The repository is maintained under GitHub account `xy0125423`.

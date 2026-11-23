@@ -40,9 +40,10 @@ or externally validated. The archived timing measurements remain specific to the
 original machine and cannot be inferred from a different machine's execution.
 
 No raw SpaceNet imagery, private weights, Skills source, credentials or the private
-review folder are Git candidates. Original project licensing remains undecided;
-MIT and BSD-3-Clause are options for the author's own code. The upstream U-Net MIT
-license and SpaceNet CC BY-SA terms retain their own scope.
+review folder are Git candidates. The author has selected MIT for original project
+code; the LICENSE scope notice excludes research documents, remote-sensing imagery,
+derived third-party media and third-party code. The upstream U-Net MIT license and
+SpaceNet CC BY-SA terms retain their own scope.
 
 The authenticated GitHub profile is xy0125423; account/repository/public visibility
 confirmation is still required by the task before creating or pushing the remote.

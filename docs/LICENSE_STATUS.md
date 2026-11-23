@@ -1,9 +1,13 @@
 # Licensing status
 
-The author has not selected a license for original project code or manuscript.
-Public visibility does not itself grant reuse rights. Before open-source release,
-the author may choose MIT or BSD-3-Clause for code and a separate manuscript license.
-No project-wide LICENSE is asserted here.
+The author selected MIT for original software code. The repository root LICENSE
+grants those terms for original code authored by Mengle Xue in this repository.
+Its scope notice explicitly excludes manuscript and supplementary documents,
+SpaceNet imagery/annotations, figure media incorporating third-party material,
+and all third-party code. Those materials are governed by their respective owners'
+copyright, licenses, attribution requirements and access terms. No license is
+asserted for the manuscript or SpaceNet-derived media beyond applicable upstream
+terms.
 
 The vendored U-Net is MIT-licensed by Mateusz Buda; its original LICENSE and provenance
 are retained under src/vendor/p2_unet/. This third-party copyright attribution does
@@ -16,4 +20,7 @@ Figure panels incorporating SpaceNet imagery remain subject to those terms.
 Natural Earth locator boundaries in Figure 1 are public domain under
 https://www.naturalearthdata.com/about/terms-of-use/ ; the regeneration
 script uses an optional boundary dataset and falls back when it is absent.
-Dependencies retain their upstream licenses; no dependency source or Skills are bundled.
+Dependency license identifiers from the clean accepted environment are inventoried
+in [DEPENDENCY_LICENSES.md](DEPENDENCY_LICENSES.md); consult each upstream distribution
+for bundled notices and conditions. The upstream U-Net MIT notice remains alongside
+its source. No Skills source is bundled.
